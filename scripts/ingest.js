@@ -127,8 +127,9 @@ function classifyType(workoutType, activityDate, upcomingEvents) {
     if (diffDays <= 1) return 'race';
   }
 
+  // null/0 = untagged default run → treat as workout
   const typeMap = { 2: 'long_run', 3: 'workout' };
-  return typeMap[workoutType] ?? null; // null = exclude
+  return typeMap[workoutType] ?? 'workout';
 }
 
 // --- PR Detection ---
