@@ -1,0 +1,18 @@
+{
+  "name": "runbase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "ingest": "node scripts/ingest.js",
+    "oauth": "node scripts/oauth-setup.js"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.16.0",
+    "tailwindcss": "^3.4.0"
+  }
+}

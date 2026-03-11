@@ -1,0 +1,82 @@
+---
+import type { Activity } from '../lib/types';
+import {
+  metersToMiles,
+  pacePerMile,
+  formatDuration,
+  formatDate,
+  metersToFeet,
+  typeLabel,
+  typeColor,
+} from '../lib/format';
+
+export interface Props {
+  activity: Activity;
+}
+
+const { activity } = Astro.props;
+
+const miles = metersToMiles(activity.distance_meters);
+const pace = pacePerMile(activity.average_speed_meters_per_second);
+const duration = formatDuration(activity.moving_time_seconds);
+const elevation = metersToFeet(activity.total_elevation_gain_meters);
+const date = formatDate(activity.date);
+const color = typeColor(activity.type);
+const label = typeLabel(activity.type);
+---
+
+<article class="border border-zinc-800 rounded-lg p-5 hover:border-zinc-700 transition-colors">
+  <div class="flex items-start justify-between gap-4">
+    <div class="flex-1 min-w-0">
+      <!-- Header -->
+      <div class="flex items-center gap-2 mb-1">
+        <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${color}`}>
+          {label}
+        </span>
+        {activity.is_pr && (
+          <span class="text-xs font-medium px-2 py-0.5 rounded-full text-rose-400 bg-rose-400/10">
+            PR {activity.pr_distance ? `· ${activity.pr_distance}` : ''}
+          </span>
+        )}
+      </div>
+
+      <!-- Name -->
+      <h3 class="text-sm font-medium text-zinc-100 truncate">{activity.name}</h3>
+      <p class="text-xs text-zinc-500 mt-0.5">{date}</p>
+    </div>
+
+    <!-- Distance -->
+    <div class="text-right shrink-0">
+      <div class="text-xl font-semibold text-white">{miles}</div>
+      <div class="text-xs text-zinc-500">mi</div>
+    </div>
+  </div>
+
+  <!-- Stats row -->
+  <div class="grid grid-cols-3 gap-3 mt-4 pt-4 border-t border-zinc-800/60">
+    <div>
+      <div class="text-xs text-zinc-500 mb-0.5">Pace</div>
+      <div class="text-sm font-medium">{pace}<span class="text-xs text-zinc-500 ml-1">/mi</span></div>
+    </div>
+    <div>
+      <div class="text-xs text-zinc-500 mb-0.5">Time</div>
+      <div class="text-sm font-medium">{duration}</div>
+    </div>
+    <div>
+      <div class="text-xs text-zinc-500 mb-0.5">Elev</div>
+      <div class="text-sm font-medium">{elevation}<span class="text-xs text-zinc-500 ml-1">ft</span></div>
+    </div>
+  </div>
+
+  <!-- Heart rate (if available) -->
+  {(activity.average_heartrate || activity.max_heartrate) && (
+    <div class="flex gap-4 mt-3 text-xs text-zinc-500">
+      {activity.average_heartrate && (
+        <span>Avg HR: <span class="text-zinc-300">{activity.average_heartrate} bpm</span></span>
+      )}
+      {activity.max_heartrate && (
+        <span>Max HR: <span class="text-zinc-300">{activity.max_heartrate} bpm</span></span>
+      )}
+    </div>
+  )}
+</article>

@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PRCard from '../components/PRCard.astro';
+import type { RunStore, Activity } from '../lib/types';
+
+const store: RunStore = await import('../../data/runs.json').then(m => m.default);
+
+// Filter PRs, then deduplicate by pr_distance (keep the most recent per distance)
+const allPRs = store.activities.filter(a => a.is_pr && a.pr_distance);
+
+const prByDistance = new Map<string, Activity>();
+for (const activity of allPRs) {
+  const key = activity.pr_distance!;
+  const existing = prByDistance.get(key);
+  if (!existing || new Date(activity.date) > new Date(existing.date)) {
+    prByDistance.set(key, activity);
+  }
+}
+
+// Sort by distance significance (marathon first)
+const DISTANCE_ORDER = [
+  'Marathon', '30k', 'Half Marathon', '20k', '10 mile', '15k', '10k', '5k',
+  '2 mile', '1 mile', '1k', '1/2 mile', '400m',
+];
+
+const prs = [...prByDistance.values()].sort((a, b) => {
+  const ai = DISTANCE_ORDER.indexOf(a.pr_distance!);
+  const bi = DISTANCE_ORDER.indexOf(b.pr_distance!);
+  if (ai === -1 && bi === -1) return 0;
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+});
+---
+
+<Layout title="PR Board">
+  <div class="mb-10">
+    <h1 class="text-2xl font-semibold text-white">PR Board</h1>
+    <p class="text-zinc-400 mt-1 text-sm">Personal records by distance.</p>
+  </div>
+
+  {prs.length === 0 ? (
+    <div class="border border-zinc-800 rounded-lg p-10 text-center">
+      <p class="text-zinc-500 text-sm">No PRs recorded yet.</p>
+    </div>
+  ) : (
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {prs.map(activity => (
+        <PRCard activity={activity} />
+      ))}
+    </div>
+  )}
+</Layout>

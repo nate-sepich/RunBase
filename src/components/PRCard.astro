@@ -1,0 +1,46 @@
+---
+import type { Activity } from '../lib/types';
+import { metersToMiles, pacePerMile, formatDuration, formatDate } from '../lib/format';
+
+export interface Props {
+  activity: Activity;
+}
+
+const { activity } = Astro.props;
+
+const miles = metersToMiles(activity.distance_meters);
+const pace = pacePerMile(activity.average_speed_meters_per_second);
+const duration = formatDuration(activity.moving_time_seconds);
+const date = formatDate(activity.date);
+---
+
+<article class="border border-zinc-800 rounded-lg p-5 hover:border-amber-800/50 transition-colors group">
+  <!-- PR distance badge -->
+  <div class="flex items-center justify-between mb-3">
+    <span class="text-amber-400 font-semibold text-sm tracking-wide">
+      {activity.pr_distance ?? 'PR'}
+    </span>
+    <span class="text-xs text-zinc-500">{date}</span>
+  </div>
+
+  <!-- Activity name -->
+  <p class="text-sm text-zinc-300 truncate mb-4">{activity.name}</p>
+
+  <!-- Key stats -->
+  <div class="space-y-2">
+    <div class="flex items-baseline justify-between">
+      <span class="text-xs text-zinc-500">Pace</span>
+      <span class="text-lg font-semibold text-white">
+        {pace}<span class="text-xs text-zinc-500 font-normal ml-1">/mi</span>
+      </span>
+    </div>
+    <div class="flex items-baseline justify-between">
+      <span class="text-xs text-zinc-500">Time</span>
+      <span class="text-sm font-medium text-zinc-200">{duration}</span>
+    </div>
+    <div class="flex items-baseline justify-between">
+      <span class="text-xs text-zinc-500">Distance</span>
+      <span class="text-sm font-medium text-zinc-200">{miles} mi</span>
+    </div>
+  </div>
+</article>
