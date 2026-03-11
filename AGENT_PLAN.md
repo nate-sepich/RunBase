@@ -118,7 +118,7 @@ Run `npm run dev` and verify:
 - Countdown "14d", "Today" shown for close/current events
 - Empty state message shown when `upcoming_events: []`
 
----
+---#
 
 ## Step 7: Add Seed Events (Optional but Recommended for Demo)
 
