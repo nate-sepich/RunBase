@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "ingest": "node scripts/ingest.js",
-    "oauth": "node scripts/oauth-setup.js"
+    "oauth": "node scripts/oauth-setup.js",
+    "backfill": "node scripts/backfill.js"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
