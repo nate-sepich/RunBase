@@ -11,6 +11,7 @@ export interface Activity {
   average_heartrate?: number;
   is_pr: boolean;
   pr_distance?: string;
+  pr_time_seconds?: number;
 }
 
 export interface UpcomingEvent {

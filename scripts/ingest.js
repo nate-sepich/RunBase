@@ -164,7 +164,7 @@ function detectPR(bestEfforts) {
     ? match.label
     : `${(best.distance / 1000).toFixed(1)}k`;
 
-  return { is_pr: true, pr_distance };
+  return { is_pr: true, pr_distance, pr_time_seconds: best.elapsed_time };
 }
 
 // --- Mapping ---
@@ -173,7 +173,7 @@ function mapActivity(detail, upcomingEvents) {
   const type = classifyType(detail.workout_type, detail.start_date, upcomingEvents);
   if (!type) return null;
 
-  const { is_pr, pr_distance } = detectPR(detail.best_efforts);
+  const { is_pr, pr_distance, pr_time_seconds } = detectPR(detail.best_efforts);
 
   const activity = {
     id: String(detail.id),
@@ -190,6 +190,7 @@ function mapActivity(detail, upcomingEvents) {
   if (detail.max_heartrate != null) activity.max_heartrate = detail.max_heartrate;
   if (detail.average_heartrate != null) activity.average_heartrate = Math.round(detail.average_heartrate);
   if (pr_distance) activity.pr_distance = pr_distance;
+  if (pr_time_seconds) activity.pr_time_seconds = pr_time_seconds;
 
   return activity;
 }

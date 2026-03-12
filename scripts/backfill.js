@@ -171,11 +171,11 @@ function detectPR(bestEfforts) {
   if (!prEfforts.length) return { is_pr: false, pr_distance: null };
   const best = prEfforts.reduce((a, b) => (a.distance > b.distance ? a : b));
   const match = STANDARD_DISTANCES.find(d => Math.abs(d.meters - best.distance) < 50);
-  return { is_pr: true, pr_distance: match ? match.label : `${(best.distance / 1000).toFixed(1)}k` };
+  return { is_pr: true, pr_distance: match ? match.label : `${(best.distance / 1000).toFixed(1)}k`, pr_time_seconds: best.elapsed_time };
 }
 
 function mapActivity(detail, upcomingEvents) {
-  const { is_pr, pr_distance } = detectPR(detail.best_efforts);
+  const { is_pr, pr_distance, pr_time_seconds } = detectPR(detail.best_efforts);
   const activity = {
     id: String(detail.id),
     date: detail.start_date,
@@ -190,6 +190,7 @@ function mapActivity(detail, upcomingEvents) {
   if (detail.max_heartrate != null) activity.max_heartrate = detail.max_heartrate;
   if (detail.average_heartrate != null) activity.average_heartrate = Math.round(detail.average_heartrate);
   if (pr_distance) activity.pr_distance = pr_distance;
+  if (pr_time_seconds) activity.pr_time_seconds = pr_time_seconds;
   return activity;
 }
 

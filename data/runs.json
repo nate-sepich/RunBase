@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T12:13:25.834Z",
+  "last_updated": "2026-03-12T22:07:55.919Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
@@ -109,7 +109,8 @@
       "total_elevation_gain_meters": 378.2,
       "average_speed_meters_per_second": 2.47,
       "is_pr": true,
-      "pr_distance": "50.0k"
+      "pr_distance": "50.0k",
+      "pr_time_seconds": 25587
     },
     {
       "id": "15745904231",
@@ -275,7 +276,8 @@
       "total_elevation_gain_meters": 191.3,
       "average_speed_meters_per_second": 2.469,
       "is_pr": true,
-      "pr_distance": "Marathon"
+      "pr_distance": "Marathon",
+      "pr_time_seconds": 21302
     },
     {
       "id": "14895561961",
@@ -353,7 +355,8 @@
       "total_elevation_gain_meters": 67.6,
       "average_speed_meters_per_second": 3.706,
       "is_pr": true,
-      "pr_distance": "Half Marathon"
+      "pr_distance": "Half Marathon",
+      "pr_time_seconds": 5697
     },
     {
       "id": "14645751449",
@@ -376,7 +379,8 @@
       "total_elevation_gain_meters": 33.5,
       "average_speed_meters_per_second": 3.258,
       "is_pr": true,
-      "pr_distance": "1 mile"
+      "pr_distance": "1 mile",
+      "pr_time_seconds": 349
     },
     {
       "id": "14565560214",
@@ -399,7 +403,8 @@
       "total_elevation_gain_meters": 39.7,
       "average_speed_meters_per_second": 3.302,
       "is_pr": true,
-      "pr_distance": "1 mile"
+      "pr_distance": "1 mile",
+      "pr_time_seconds": 374
     },
     {
       "id": "14429850235",
@@ -532,7 +537,8 @@
       "total_elevation_gain_meters": 4,
       "average_speed_meters_per_second": 3.805,
       "is_pr": true,
-      "pr_distance": "1k"
+      "pr_distance": "1k",
+      "pr_time_seconds": 229
     },
     {
       "id": "14063160469",
@@ -568,7 +574,8 @@
       "is_pr": true,
       "max_heartrate": 186,
       "average_heartrate": 168,
-      "pr_distance": "20k"
+      "pr_distance": "20k",
+      "pr_time_seconds": 5704
     },
     {
       "id": "11543729775",
@@ -617,7 +624,8 @@
       "total_elevation_gain_meters": 10.5,
       "average_speed_meters_per_second": 4.018,
       "is_pr": true,
-      "pr_distance": "2 mile"
+      "pr_distance": "2 mile",
+      "pr_time_seconds": 769
     },
     {
       "id": "11483051908",
@@ -717,7 +725,8 @@
       "total_elevation_gain_meters": 26.7,
       "average_speed_meters_per_second": 3.402,
       "is_pr": true,
-      "pr_distance": "Half Marathon"
+      "pr_distance": "Half Marathon",
+      "pr_time_seconds": 6207
     },
     {
       "id": "10750559130",
@@ -773,7 +782,8 @@
       "total_elevation_gain_meters": 56.5,
       "average_speed_meters_per_second": 3.383,
       "is_pr": true,
-      "pr_distance": "Half Marathon"
+      "pr_distance": "Half Marathon",
+      "pr_time_seconds": 6353
     },
     {
       "id": "10695970866",
@@ -807,7 +817,8 @@
       "total_elevation_gain_meters": 21.6,
       "average_speed_meters_per_second": 3.291,
       "is_pr": true,
-      "pr_distance": "5k"
+      "pr_distance": "5k",
+      "pr_time_seconds": 1517
     }
   ],
   "upcoming_events": []

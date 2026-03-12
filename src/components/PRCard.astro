@@ -1,17 +1,34 @@
 ---
 import type { Activity } from '../lib/types';
-import { metersToMiles, pacePerMile, formatDuration, formatDate } from '../lib/format';
+import { pacePerMile, formatDuration, formatDate } from '../lib/format';
 
 export interface Props {
   activity: Activity;
 }
 
 const { activity } = Astro.props;
-
-const miles = metersToMiles(activity.distance_meters);
-const pace = pacePerMile(activity.average_speed_meters_per_second);
-const duration = formatDuration(activity.moving_time_seconds);
 const date = formatDate(activity.date);
+
+// Standard distance label → meters, for pace calculation
+const DISTANCE_METERS: Record<string, number> = {
+  '400m': 400, '1/2 mile': 804.67, '1k': 1000, '1 mile': 1609.34,
+  '2 mile': 3218.69, '5k': 5000, '10k': 10000, '15k': 15000,
+  '10 mile': 16093.4, '20k': 20000, 'Half Marathon': 21097.5,
+  '30k': 30000, 'Marathon': 42195,
+};
+
+const effortMeters = activity.pr_distance ? DISTANCE_METERS[activity.pr_distance] : null;
+const effortTime = activity.pr_time_seconds;
+
+// Pace: derived from effort time + known distance; fall back to activity avg
+const pace = (effortTime && effortMeters)
+  ? pacePerMile(effortMeters / effortTime)
+  : pacePerMile(activity.average_speed_meters_per_second);
+
+// Time: the PR effort time; fall back to full activity time
+const duration = effortTime
+  ? formatDuration(effortTime)
+  : formatDuration(activity.moving_time_seconds);
 ---
 
 <article class="border border-zinc-800 rounded-lg p-5 hover:border-amber-800/50 transition-colors group">
@@ -26,7 +43,7 @@ const date = formatDate(activity.date);
   <!-- Activity name -->
   <p class="text-sm text-zinc-300 truncate mb-4">{activity.name}</p>
 
-  <!-- Key stats -->
+  <!-- Key stats (effort-accurate) -->
   <div class="space-y-2">
     <div class="flex items-baseline justify-between">
       <span class="text-xs text-zinc-500">Pace</span>
@@ -37,10 +54,6 @@ const date = formatDate(activity.date);
     <div class="flex items-baseline justify-between">
       <span class="text-xs text-zinc-500">Time</span>
       <span class="text-sm font-medium text-zinc-200">{duration}</span>
-    </div>
-    <div class="flex items-baseline justify-between">
-      <span class="text-xs text-zinc-500">Distance</span>
-      <span class="text-sm font-medium text-zinc-200">{miles} mi</span>
     </div>
   </div>
 </article>
