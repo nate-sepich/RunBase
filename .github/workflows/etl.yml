@@ -2,14 +2,23 @@ name: RunBase ETL
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Every 12 hours
-  workflow_dispatch:        # Allow manual trigger
+    - cron: '0 */12 * * *' # Every 12 hours (runs against prod)
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run against'
+        required: true
+        default: 'prod'
+        type: choice
+        options:
+          - prod
+          - dev
 
 jobs:
   ingest:
     name: Ingest Strava Data
     runs-on: ubuntu-latest
-    environment: dev
+    environment: ${{ github.event.inputs.environment || 'prod' }}
     permissions:
       contents: write
     outputs:
