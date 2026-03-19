@@ -1,10 +1,21 @@
 {
-  "last_updated": "2026-03-18T12:20:12.725Z",
+  "last_updated": "2026-03-19T00:29:40.559Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "17773209024",
+      "date": "2026-03-18T22:33:13Z",
+      "type": "workout",
+      "name": "Afternoon Run",
+      "distance_meters": 4832.3,
+      "moving_time_seconds": 1781,
+      "total_elevation_gain_meters": 15.5,
+      "average_speed_meters_per_second": 2.713,
+      "is_pr": false
+    },
     {
       "id": "17716494693",
       "date": "2026-03-14T09:46:58Z",
