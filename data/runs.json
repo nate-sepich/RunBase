@@ -1,10 +1,49 @@
 {
-  "last_updated": "2026-03-23T01:28:16.858Z",
+  "last_updated": "2026-03-23T12:18:56.948Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "17825768788",
+      "date": "2026-03-23T10:05:17Z",
+      "type": "workout",
+      "name": "Morning Run",
+      "distance_meters": 5997,
+      "moving_time_seconds": 1994,
+      "total_elevation_gain_meters": 18.7,
+      "average_speed_meters_per_second": 3.008,
+      "is_pr": false,
+      "max_heartrate": 141,
+      "average_heartrate": 130,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 545,
+          "average_speed_meters_per_second": 2.95,
+          "average_heartrate": 124
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 512,
+          "average_speed_meters_per_second": 3.14,
+          "average_heartrate": 133
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 548,
+          "average_speed_meters_per_second": 2.94,
+          "average_heartrate": 132
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 389,
+          "average_speed_meters_per_second": 3,
+          "average_heartrate": 131
+        }
+      ]
+    },
     {
       "id": "17789276212",
       "date": "2026-03-20T10:40:59Z",
