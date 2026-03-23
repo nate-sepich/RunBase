@@ -8,7 +8,7 @@
     "tempo": "8:00\u20138:10/mi",
     "race_pace": "7:35/mi"
   },
-  "notes": "8-week block targeting Drake Road Races HM (Apr 18). Dam to DSM HM on May 30. Broken Anvil Backyard Ultra Sep 19. Week 6 = Colorado trip (flex). Week 5 Sat may be a tune-up race.",
+  "notes": "8-week block targeting Drake Road Races HM (Apr 18). Dam to DSM HM on May 30. Broken Anvil Backyard Ultra Sep 19. Week 5 Sat may be a tune-up race.",
   "weeks": [
     {
       "week": 1,
@@ -357,7 +357,7 @@
     },
     {
       "week": 6,
-      "theme": "Colorado (Flex Week)",
+      "theme": "Recovery / Flex",
       "sessions": [
         {
           "day": "Monday",
@@ -366,7 +366,7 @@
           "pace_target": "8:30+/mi",
           "hr_zone": "Z2",
           "hr_bpm_range": "120\u2013140",
-          "notes": "Colorado \u2014 altitude adjustment, keep it easy"
+          "notes": "Easy effort \u2014 go by feel"
         },
         {
           "day": "Tuesday",
@@ -375,7 +375,7 @@
           "pace_target": "8:30+/mi",
           "hr_zone": "Z2",
           "hr_bpm_range": "120\u2013140",
-          "notes": "Colorado \u2014 go by feel, don't chase pace"
+          "notes": "Easy effort \u2014 don't chase pace"
         },
         {
           "day": "Wednesday",
@@ -393,7 +393,7 @@
           "pace_target": null,
           "hr_zone": null,
           "hr_bpm_range": null,
-          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+          "notes": "Flexible day \u2014 stay active"
         },
         {
           "day": "Friday",
@@ -402,7 +402,7 @@
           "pace_target": null,
           "hr_zone": null,
           "hr_bpm_range": null,
-          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+          "notes": "Flexible day \u2014 stay active"
         },
         {
           "day": "Saturday",
@@ -411,7 +411,7 @@
           "pace_target": null,
           "hr_zone": null,
           "hr_bpm_range": null,
-          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+          "notes": "Flexible day \u2014 stay active"
         },
         {
           "day": "Sunday",
