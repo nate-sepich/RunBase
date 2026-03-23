@@ -1,0 +1,259 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { metersToMiles, pacePerMile, formatDate } from '../lib/format';
+import type { Activity } from '../lib/types';
+import runStore from '../../data/runs.json';
+import trainingPlan from '../../data/training-plan.json';
+
+const activities: Activity[] = runStore.activities;
+
+// --- Date helpers ---
+const planStart = new Date(trainingPlan.plan_start + 'T00:00:00Z');
+
+function getWeekStart(weekNum: number): Date {
+  const d = new Date(planStart);
+  d.setUTCDate(d.getUTCDate() + (weekNum - 1) * 7);
+  return d;
+}
+
+function getSessionDate(weekNum: number, dayName: string): Date {
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const weekStart = getWeekStart(weekNum); // Monday
+  const targetDay = days.indexOf(dayName);
+  const startDay = weekStart.getUTCDay(); // 0=Sun
+  let diff = targetDay - startDay;
+  if (diff < 0) diff += 7;
+  const d = new Date(weekStart);
+  d.setUTCDate(d.getUTCDate() + diff);
+  return d;
+}
+
+function isoDate(d: Date): string {
+  return d.toISOString().slice(0, 10);
+}
+
+function today(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function formatShortDate(d: Date): string {
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
+
+// --- Match logged runs to planned sessions (±1 day, within 20% distance) ---
+function findMatchingRun(weekNum: number, dayName: string, plannedMiles: number | null): Activity | null {
+  const sessionDate = getSessionDate(weekNum, dayName);
+  const sessionIso = isoDate(sessionDate);
+
+  return activities.find(a => {
+    const actIso = a.date.slice(0, 10);
+    const diffDays = Math.abs(
+      (new Date(actIso).getTime() - new Date(sessionIso).getTime()) / 86400000
+    );
+    if (diffDays > 1) return false;
+    if (!plannedMiles) return true; // cross-training / rest — match by date only
+    const actualMiles = metersToMiles(a.distance_meters);
+    return Math.abs(actualMiles - plannedMiles) / plannedMiles <= 0.20;
+  }) ?? null;
+}
+
+// --- Type styling ---
+type SessionType = 'easy' | 'tempo' | 'workout' | 'long_run' | 'race' | 'rest' | 'cross' | 'easy_plus_cross' | 'flex';
+
+const typeStyles: Record<SessionType, { label: string; dot: string; card: string; text: string }> = {
+  easy:           { label: 'Easy',        dot: 'bg-blue-500',    card: 'border-blue-800/40 bg-blue-950/20',    text: 'text-blue-400' },
+  tempo:          { label: 'Tempo',       dot: 'bg-emerald-500', card: 'border-emerald-800/40 bg-emerald-950/20', text: 'text-emerald-400' },
+  workout:        { label: 'Workout',     dot: 'bg-orange-500',  card: 'border-orange-800/40 bg-orange-950/20', text: 'text-orange-400' },
+  long_run:       { label: 'Long Run',    dot: 'bg-violet-500',  card: 'border-violet-800/40 bg-violet-950/20', text: 'text-violet-400' },
+  race:           { label: 'Race',        dot: 'bg-amber-500',   card: 'border-amber-800/40 bg-amber-950/20',  text: 'text-amber-400' },
+  rest:           { label: 'Rest',        dot: 'bg-zinc-700',    card: 'border-zinc-800/20 bg-transparent',    text: 'text-zinc-600' },
+  cross:          { label: 'Cross',       dot: 'bg-pink-500',    card: 'border-pink-800/40 bg-pink-950/20',    text: 'text-pink-400' },
+  easy_plus_cross:{ label: 'Easy+Gym',   dot: 'bg-blue-500',    card: 'border-blue-800/40 bg-blue-950/20',    text: 'text-blue-400' },
+  flex:           { label: 'Flex',        dot: 'bg-zinc-500',    card: 'border-zinc-700/30 bg-zinc-900/20',    text: 'text-zinc-400' },
+};
+
+function style(type: string) {
+  return typeStyles[type as SessionType] ?? typeStyles.flex;
+}
+
+// --- Current week detection ---
+const todayIso = today();
+let currentWeek = 0;
+for (const week of trainingPlan.weeks) {
+  const ws = isoDate(getWeekStart(week.week));
+  const we = isoDate(new Date(getWeekStart(week.week).getTime() + 6 * 86400000));
+  if (todayIso >= ws && todayIso <= we) {
+    currentWeek = week.week;
+    break;
+  }
+}
+
+// --- Race countdown ---
+const races = (trainingPlan as any).races ?? [];
+---
+
+<Layout title="Training Plan" description="Gabe's 8-week training block">
+  <div class="space-y-8">
+
+    <!-- Header -->
+    <div>
+      <h1 class="text-2xl font-semibold text-white tracking-tight">Training Plan</h1>
+      <p class="text-sm text-zinc-500 mt-1">
+        8-week block · Started {formatShortDate(planStart)} · Target: {trainingPlan.target_event}
+      </p>
+    </div>
+
+    <!-- Pace key -->
+    <div class="flex flex-wrap gap-x-6 gap-y-2 text-xs text-zinc-400 border border-zinc-800 rounded-lg px-4 py-3">
+      <span class="text-zinc-500 font-medium mr-2">Pace key:</span>
+      <span>🟦 Easy <span class="text-zinc-300">8:30+/mi</span></span>
+      <span>🟩 Tempo <span class="text-zinc-300">8:00–8:10/mi</span></span>
+      <span>🟧 Workout / Race Pace <span class="text-zinc-300">7:35/mi</span></span>
+      <span>🟣 Long Run <span class="text-zinc-300">8:30+/mi</span></span>
+    </div>
+
+    <!-- Race countdown chips -->
+    {races.length > 0 && (
+      <div class="flex flex-wrap gap-3">
+        {races.map((race: any) => {
+          const raceDate = new Date(race.date + 'T00:00:00Z');
+          const daysOut = Math.ceil((raceDate.getTime() - new Date(todayIso).getTime()) / 86400000);
+          const isPast = daysOut < 0;
+          return (
+            <div class={`flex items-center gap-2 px-3 py-1.5 rounded-full border text-xs ${isPast ? 'border-zinc-700 text-zinc-500' : 'border-amber-700/60 bg-amber-950/20 text-amber-300'}`}>
+              <span class={`w-1.5 h-1.5 rounded-full ${isPast ? 'bg-zinc-600' : 'bg-amber-400'}`}></span>
+              <span class="font-medium">{race.name}</span>
+              <span class={isPast ? 'text-zinc-600' : 'text-amber-500'}>
+                {isPast ? `${Math.abs(daysOut)}d ago` : daysOut === 0 ? 'TODAY' : `${daysOut}d`}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+    )}
+
+    <!-- Weeks -->
+    {trainingPlan.weeks.map((week: any) => {
+      const weekStart = getWeekStart(week.week);
+      const weekEnd = new Date(weekStart.getTime() + 6 * 86400000);
+      const isCurrentWeek = week.week === currentWeek;
+      const isPastWeek = todayIso > isoDate(weekEnd);
+
+      // Total planned miles
+      const plannedMiles = week.sessions.reduce((sum: number, s: any) => sum + (s.distance_miles ?? 0), 0);
+
+      // Total actual miles
+      const matchedRuns = week.sessions
+        .filter((s: any) => s.type !== 'rest' && s.type !== 'cross' && s.type !== 'flex')
+        .map((s: any) => findMatchingRun(week.week, s.day, s.distance_miles))
+        .filter(Boolean) as Activity[];
+      const actualMiles = matchedRuns.reduce((sum, a) => sum + metersToMiles(a.distance_meters), 0);
+
+      return (
+        <div class={`border rounded-xl overflow-hidden transition-all ${isCurrentWeek ? 'border-zinc-600' : 'border-zinc-800'}`}>
+          <!-- Week header -->
+          <div class={`px-5 py-3 flex items-center justify-between ${isCurrentWeek ? 'bg-zinc-800/60' : 'bg-zinc-900/40'}`}>
+            <div class="flex items-center gap-3">
+              {isCurrentWeek && (
+                <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-white/10 text-white">THIS WEEK</span>
+              )}
+              <span class={`font-semibold ${isCurrentWeek ? 'text-white' : isPastWeek ? 'text-zinc-500' : 'text-zinc-300'}`}>
+                Week {week.week} <span class="font-normal text-zinc-500">·</span> <span class="font-normal">{week.theme}</span>
+              </span>
+              <span class="text-xs text-zinc-600">
+                {formatShortDate(weekStart)} – {formatShortDate(weekEnd)}
+              </span>
+            </div>
+            <div class="text-xs text-zinc-500 flex gap-4">
+              <span>Planned <span class="text-zinc-300">{plannedMiles.toFixed(0)} mi</span></span>
+              {isPastWeek || isCurrentWeek ? (
+                <span>Logged <span class={actualMiles >= plannedMiles * 0.85 ? 'text-emerald-400' : 'text-orange-400'}>{actualMiles.toFixed(1)} mi</span></span>
+              ) : null}
+            </div>
+          </div>
+
+          <!-- Sessions grid -->
+          <div class="grid grid-cols-7 divide-x divide-zinc-800/60">
+            {week.sessions.map((session: any) => {
+              const sessionDate = getSessionDate(week.week, session.day);
+              const sessionIso = isoDate(sessionDate);
+              const isToday = sessionIso === todayIso;
+              const isPast = sessionIso < todayIso;
+              const matchedRun = session.type !== 'rest' && session.type !== 'cross' && session.type !== 'flex'
+                ? findMatchingRun(week.week, session.day, session.distance_miles)
+                : null;
+              const s = style(session.type);
+
+              return (
+                <div class={`p-2.5 min-h-[120px] flex flex-col gap-1 ${isToday ? 'bg-zinc-800/40 ring-1 ring-inset ring-zinc-600' : ''}`}>
+                  <!-- Day label -->
+                  <div class="flex items-center justify-between mb-1">
+                    <span class={`text-xs font-medium ${isToday ? 'text-white' : 'text-zinc-500'}`}>
+                      {session.day.slice(0, 3).toUpperCase()}
+                    </span>
+                    <span class={`text-xs ${isToday ? 'text-zinc-300' : 'text-zinc-600'}`}>
+                      {formatShortDate(sessionDate).replace(/[A-Za-z]+ /, '')}
+                    </span>
+                  </div>
+
+                  <!-- Session type dot + label -->
+                  {session.type !== 'rest' ? (
+                    <div class="flex-1 flex flex-col gap-1">
+                      <div class="flex items-center gap-1.5">
+                        <span class={`w-1.5 h-1.5 rounded-full shrink-0 ${s.dot}`}></span>
+                        <span class={`text-xs font-medium leading-tight ${s.text}`}>{s.label}</span>
+                      </div>
+
+                      {session.distance_miles && (
+                        <div class="text-xs text-zinc-400 leading-tight pl-3">
+                          {session.distance_miles} mi
+                        </div>
+                      )}
+
+                      {session.pace_target && session.type !== 'rest' && session.type !== 'cross' && (
+                        <div class="text-xs text-zinc-600 leading-tight pl-3 truncate">
+                          {session.pace_target}
+                        </div>
+                      )}
+
+                      {session.notes && session.notes.startsWith('⚠️') && (
+                        <div class="text-xs text-yellow-600 leading-tight pl-3">TBD</div>
+                      )}
+
+                      <!-- Logged run badge -->
+                      {matchedRun && (
+                        <div class="mt-auto pt-1">
+                          <div class="flex items-center gap-1 text-xs text-emerald-400">
+                            <svg class="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>{metersToMiles(matchedRun.distance_meters)} mi</span>
+                          </div>
+                          {matchedRun.average_heartrate && (
+                            <div class="text-xs text-zinc-600 pl-4">{matchedRun.average_heartrate} bpm</div>
+                          )}
+                        </div>
+                      )}
+
+                      <!-- Missed session badge -->
+                      {!matchedRun && isPast && session.type !== 'flex' && session.distance_miles && (
+                        <div class="mt-auto pt-1">
+                          <span class="text-xs text-zinc-700">—</span>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div class="flex-1 flex items-center justify-center">
+                      <span class="text-xs text-zinc-700">Rest</span>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    })}
+
+  </div>
+</Layout>
