@@ -17,7 +17,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.join(__dirname, '../data');
@@ -226,19 +226,19 @@ function estimateDurationMinutes(session) {
 
 // --- Send via iMessage ---
 async function sendImessage(message) {
-  // Use imsg CLI to send via Messages.app
   const args = [
     'send',
-    '--to', GABE_PHONE.replace(/[^\d]/g, ''), // strip non-digits
+    '--to', GABE_PHONE.replace(/[^\d]/g, ''),
     '--text', message,
-    '--service', 'sms' // force SMS (green bubble) for reliability
+    '--service', 'sms'
   ];
 
   try {
-    execSync(`imsg ${args.join(' ')}`, { stdio: 'pipe' });
+    execFileSync('imsg', args, { stdio: 'pipe' });
     return true;
   } catch (err) {
-    console.error('[brief] iMessage send failed:', err.message);
+    const stderr = err?.stderr ? String(err.stderr) : err.message;
+    console.error('[brief] iMessage send failed:', stderr);
     return false;
   }
 }
