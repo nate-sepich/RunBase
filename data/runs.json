@@ -4084,5 +4084,30 @@
       ]
     }
   ],
-  "upcoming_events": []
+  "upcoming_events": [
+    {
+      "event_name": "Drake Road Races Half Marathon",
+      "date": "2026-04-18T07:00:00Z",
+      "location": "Des Moines, IA",
+      "target_distance": "Half Marathon",
+      "a_goal": "Sub-1:40 (7:38/mi)",
+      "b_goal": "Sub-1:45 (8:00/mi)"
+    },
+    {
+      "event_name": "EMC Dam to DSM Half Marathon",
+      "date": "2026-05-30T07:00:00Z",
+      "location": "Polk City to Des Moines, IA",
+      "target_distance": "Half Marathon",
+      "a_goal": "TBD",
+      "b_goal": "TBD"
+    },
+    {
+      "event_name": "Broken Anvil Backyard Ultra",
+      "date": "2026-09-19T08:00:00Z",
+      "location": "West Point, IA",
+      "target_distance": "Backyard Ultra (4.167mi loops)",
+      "a_goal": "TBD",
+      "b_goal": "TBD"
+    }
+  ]
 }
