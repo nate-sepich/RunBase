@@ -58,3 +58,45 @@ export function typeColor(type: string): string {
   };
   return colors[type] ?? 'text-zinc-400 bg-zinc-400/10';
 }
+
+/**
+ * Map a heart rate to a zone number (1–5) based on max HR.
+ * Zones: Z1 <60%, Z2 60-70%, Z3 70-80%, Z4 80-90%, Z5 90%+
+ */
+export function hrZone(bpm: number, maxHr: number): 1 | 2 | 3 | 4 | 5 {
+  const pct = bpm / maxHr;
+  if (pct < 0.60) return 1;
+  if (pct < 0.70) return 2;
+  if (pct < 0.80) return 3;
+  if (pct < 0.90) return 4;
+  return 5;
+}
+
+/** Zone display label */
+export function zoneLabel(zone: 1 | 2 | 3 | 4 | 5): string {
+  return ['', 'Recovery', 'Aerobic Base', 'Tempo', 'Threshold', 'VO₂ Max'][zone] as string;
+}
+
+/** Tailwind bg color class for a zone */
+export function zoneBgColor(zone: 1 | 2 | 3 | 4 | 5): string {
+  return [
+    '',
+    'bg-zinc-500',    // Z1 - Recovery
+    'bg-blue-500',    // Z2 - Aerobic Base
+    'bg-emerald-500', // Z3 - Tempo
+    'bg-orange-500',  // Z4 - Threshold
+    'bg-red-500',     // Z5 - VO2 Max
+  ][zone] as string;
+}
+
+/** Text color class for a zone */
+export function zoneTextColor(zone: 1 | 2 | 3 | 4 | 5): string {
+  return [
+    '',
+    'text-zinc-400',    // Z1
+    'text-blue-400',    // Z2
+    'text-emerald-400', // Z3
+    'text-orange-400',  // Z4
+    'text-red-400',     // Z5
+  ][zone] as string;
+}

@@ -1,3 +1,10 @@
+export interface MileSplit {
+  mile: number;
+  moving_time_seconds: number;
+  average_speed_meters_per_second: number;
+  average_heartrate?: number;
+}
+
 export interface Activity {
   id: string;
   date: string;
@@ -12,6 +19,7 @@ export interface Activity {
   is_pr: boolean;
   pr_distance?: string;
   pr_time_seconds?: number;
+  splits_standard?: MileSplit[];
 }
 
 export interface UpcomingEvent {

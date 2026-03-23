@@ -192,6 +192,19 @@ function mapActivity(detail, upcomingEvents) {
   if (pr_distance) activity.pr_distance = pr_distance;
   if (pr_time_seconds) activity.pr_time_seconds = pr_time_seconds;
 
+  // Per-mile splits for HR zone breakdown
+  if (detail.splits_standard?.length) {
+    activity.splits_standard = detail.splits_standard.map((s, i) => {
+      const split = {
+        mile: i + 1,
+        moving_time_seconds: s.moving_time,
+        average_speed_meters_per_second: s.average_speed,
+      };
+      if (s.average_heartrate != null) split.average_heartrate = Math.round(s.average_heartrate);
+      return split;
+    });
+  }
+
   return activity;
 }
 

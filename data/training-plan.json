@@ -1,0 +1,595 @@
+{
+  "athlete": "Gabe Hiatt",
+  "plan_start": "2026-03-23",
+  "target_event": "Drake Road Races Half Marathon",
+  "target_date": "2026-04-18",
+  "pace_keys": {
+    "easy": "8:30/mi or slower",
+    "tempo": "8:00\u20138:10/mi",
+    "race_pace": "7:35/mi"
+  },
+  "notes": "8-week block targeting Drake Road Races HM (Apr 18). Dam to DSM HM on May 30. Broken Anvil Backyard Ultra Sep 19. Week 6 = Colorado trip (flex). Week 5 Sat may be a tune-up race.",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Base",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 3,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Easy shakeout"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 3,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "cross",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Core work"
+        },
+        {
+          "day": "Thursday",
+          "type": "workout",
+          "distance_miles": null,
+          "pace_target": "7:35/mi per repeat",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "Mile repeats x3 \u2014 full recovery jog between each"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 8,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Easy effort throughout"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "theme": "Build",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "3\u20135 miles easy"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "cross",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Core \u2014 bodyweight combination"
+        },
+        {
+          "day": "Thursday",
+          "type": "tempo",
+          "distance_miles": null,
+          "pace_target": "8:00\u20138:10/mi",
+          "hr_zone": "Z3\u2013Z4",
+          "hr_bpm_range": "145\u2013165",
+          "notes": "Tempo run \u2014 warm up 1mi easy, hold tempo, cool down 1mi"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 10,
+          "pace_target": "8:30/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Easy long run"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "theme": "Build",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "3\u20135 miles easy"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        },
+        {
+          "day": "Thursday",
+          "type": "workout",
+          "distance_miles": null,
+          "pace_target": "7:35/mi per repeat",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "Mile repeats x4 \u2014 full recovery jog between each"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 10,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Easy long run"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "Peak Load",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "3\u20135 miles easy"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        },
+        {
+          "day": "Thursday",
+          "type": "workout",
+          "distance_miles": null,
+          "pace_target": "7:35/mi per repeat",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "1000m repeats x8 \u2014 lane/track run"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 8,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 15,
+          "pace_target": "8:30\u20138:45/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Biggest long run of the block \u2014 stay patient"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "Race Week?",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 7,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "easy_plus_cross",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "4 miles + leg day at gym"
+        },
+        {
+          "day": "Thursday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "\u26a0\ufe0f Unclear from plan \u2014 flagged as rest. Confirm with Gabe."
+        },
+        {
+          "day": "Friday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        },
+        {
+          "day": "Saturday",
+          "type": "race",
+          "distance_miles": null,
+          "pace_target": "7:35/mi",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "\u26a0\ufe0f Possible tune-up race \u2014 confirm event name, distance, location with Gabe"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "\u26a0\ufe0f '20' written in plan \u2014 interpreted as rest. Confirm with Gabe."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "theme": "Colorado (Flex Week)",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 3,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Colorado \u2014 altitude adjustment, keep it easy"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Colorado \u2014 go by feel, don't chase pace"
+        },
+        {
+          "day": "Wednesday",
+          "type": "cross",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Core work"
+        },
+        {
+          "day": "Thursday",
+          "type": "flex",
+          "distance_miles": null,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+        },
+        {
+          "day": "Friday",
+          "type": "flex",
+          "distance_miles": null,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+        },
+        {
+          "day": "Saturday",
+          "type": "flex",
+          "distance_miles": null,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "\u26a0\ufe0f Blank in plan \u2014 flex/stay active"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "theme": "Race Sharpening",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Tuesday",
+          "type": "tempo",
+          "distance_miles": 7,
+          "pace_target": "8:00\u20138:10/mi",
+          "hr_zone": "Z3\u2013Z4",
+          "hr_bpm_range": "145\u2013165",
+          "notes": "Tempo effort"
+        },
+        {
+          "day": "Wednesday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        },
+        {
+          "day": "Thursday",
+          "type": "workout",
+          "distance_miles": 6,
+          "pace_target": "7:35/mi",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "Race pace run \u2014 6 miles at 7:35"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 4,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 9,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Easy long run"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "theme": "Taper",
+      "sessions": [
+        {
+          "day": "Monday",
+          "type": "easy",
+          "distance_miles": 2,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "Short shakeout"
+        },
+        {
+          "day": "Tuesday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Wednesday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        },
+        {
+          "day": "Thursday",
+          "type": "workout",
+          "distance_miles": null,
+          "pace_target": "7:35/mi per repeat",
+          "hr_zone": "Z4\u2013Z5",
+          "hr_bpm_range": "160\u2013180",
+          "notes": "Mile repeats x3 \u2014 stay sharp, don't overdo it"
+        },
+        {
+          "day": "Friday",
+          "type": "easy",
+          "distance_miles": 5,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": ""
+        },
+        {
+          "day": "Saturday",
+          "type": "long_run",
+          "distance_miles": 9,
+          "pace_target": "8:30+/mi",
+          "hr_zone": "Z2",
+          "hr_bpm_range": "120\u2013140",
+          "notes": "8\u201310 miles easy \u2014 final long run before race"
+        },
+        {
+          "day": "Sunday",
+          "type": "rest",
+          "distance_miles": 0,
+          "pace_target": null,
+          "hr_zone": null,
+          "hr_bpm_range": null,
+          "notes": "Rest"
+        }
+      ]
+    }
+  ],
+  "races": [
+    {
+      "name": "Drake Road Races Half Marathon",
+      "date": "2026-04-18",
+      "location": "Des Moines, IA",
+      "distance": "Half Marathon",
+      "a_goal": "Sub-1:40 (7:38/mi)",
+      "b_goal": "Sub-1:45 (8:00/mi)",
+      "notes": "Primary A-race for this 8-week block"
+    },
+    {
+      "name": "EMC Dam to DSM Half Marathon",
+      "date": "2026-05-30",
+      "location": "Polk City to Des Moines, IA",
+      "distance": "Half Marathon",
+      "a_goal": "TBD",
+      "b_goal": "TBD",
+      "notes": "Point-to-point, Iowa classic. 6 weeks after Drake."
+    },
+    {
+      "name": "Broken Anvil Backyard Ultra",
+      "date": "2026-09-19",
+      "location": "West Point, IA (Pollmiller Lake Park)",
+      "distance": "Backyard Ultra (4.167mi loops)",
+      "a_goal": "TBD",
+      "b_goal": "TBD",
+      "notes": "Big\u2019s Backyard Ultra affiliate. Loops until one runner remains. Very different beast from HM."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T00:31:28.068Z",
+  "last_updated": "2026-03-23T01:07:07.680Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
@@ -14,7 +14,19 @@
       "moving_time_seconds": 359,
       "total_elevation_gain_meters": 0,
       "average_speed_meters_per_second": 4.524,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 356,
+          "average_speed_meters_per_second": 4.53
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 3,
+          "average_speed_meters_per_second": 4.27
+        }
+      ]
     },
     {
       "id": "17786087393",
@@ -25,7 +37,24 @@
       "moving_time_seconds": 1524,
       "total_elevation_gain_meters": 13.2,
       "average_speed_meters_per_second": 2.674,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 584,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 623,
+          "average_speed_meters_per_second": 2.58
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 317,
+          "average_speed_meters_per_second": 2.7
+        }
+      ]
     },
     {
       "id": "17773209024",
@@ -36,7 +65,29 @@
       "moving_time_seconds": 1781,
       "total_elevation_gain_meters": 15.5,
       "average_speed_meters_per_second": 2.713,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 584,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 622,
+          "average_speed_meters_per_second": 2.59
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 4,
+          "average_speed_meters_per_second": 0.73
+        }
+      ]
     },
     {
       "id": "17716494693",
@@ -47,7 +98,19 @@
       "moving_time_seconds": 858,
       "total_elevation_gain_meters": 3.2,
       "average_speed_meters_per_second": 2.928,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 561,
+          "average_speed_meters_per_second": 2.87
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 297,
+          "average_speed_meters_per_second": 3.03
+        }
+      ]
     },
     {
       "id": "17682661395",
@@ -58,7 +121,19 @@
       "moving_time_seconds": 554,
       "total_elevation_gain_meters": 2.2,
       "average_speed_meters_per_second": 3.318,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 485,
+          "average_speed_meters_per_second": 3.32
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 69,
+          "average_speed_meters_per_second": 3.27
+        }
+      ]
     },
     {
       "id": "17676727719",
@@ -71,7 +146,105 @@
       "average_speed_meters_per_second": 2.916,
       "is_pr": false,
       "max_heartrate": 174,
-      "average_heartrate": 159
+      "average_heartrate": 159,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 485,
+          "average_speed_meters_per_second": 3.32,
+          "average_heartrate": 152
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 528,
+          "average_speed_meters_per_second": 3.05,
+          "average_heartrate": 152
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 555,
+          "average_speed_meters_per_second": 2.9,
+          "average_heartrate": 156
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 556,
+          "average_speed_meters_per_second": 2.89,
+          "average_heartrate": 157
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 569,
+          "average_speed_meters_per_second": 2.83,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 563,
+          "average_speed_meters_per_second": 2.86,
+          "average_heartrate": 157
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 553,
+          "average_speed_meters_per_second": 2.91,
+          "average_heartrate": 161
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 540,
+          "average_speed_meters_per_second": 2.98,
+          "average_heartrate": 162
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88,
+          "average_heartrate": 155
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 562,
+          "average_speed_meters_per_second": 2.86,
+          "average_heartrate": 155
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 554,
+          "average_speed_meters_per_second": 2.91,
+          "average_heartrate": 165
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 558,
+          "average_speed_meters_per_second": 2.88,
+          "average_heartrate": 167
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 569,
+          "average_speed_meters_per_second": 2.83,
+          "average_heartrate": 164
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 566,
+          "average_speed_meters_per_second": 2.84,
+          "average_heartrate": 163
+        },
+        {
+          "mile": 15,
+          "moving_time_seconds": 560,
+          "average_speed_meters_per_second": 2.87,
+          "average_heartrate": 166
+        },
+        {
+          "mile": 16,
+          "moving_time_seconds": 4,
+          "average_speed_meters_per_second": 1.93,
+          "average_heartrate": 169
+        }
+      ]
     },
     {
       "id": "17611677578",
@@ -84,7 +257,75 @@
       "average_speed_meters_per_second": 3.332,
       "is_pr": false,
       "max_heartrate": 164,
-      "average_heartrate": 149
+      "average_heartrate": 149,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 510,
+          "average_speed_meters_per_second": 3.16,
+          "average_heartrate": 134
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 471,
+          "average_speed_meters_per_second": 3.41,
+          "average_heartrate": 149
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 471,
+          "average_speed_meters_per_second": 3.42,
+          "average_heartrate": 149
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 455,
+          "average_speed_meters_per_second": 3.54,
+          "average_heartrate": 147
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.32,
+          "average_heartrate": 149
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 496,
+          "average_speed_meters_per_second": 3.24,
+          "average_heartrate": 155
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.26,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 488,
+          "average_speed_meters_per_second": 3.3,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 480,
+          "average_speed_meters_per_second": 3.35,
+          "average_heartrate": 149
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37,
+          "average_heartrate": 153
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 16,
+          "average_speed_meters_per_second": 2.35,
+          "average_heartrate": 156
+        }
+      ]
     },
     {
       "id": "17598931528",
@@ -97,7 +338,39 @@
       "average_speed_meters_per_second": 3.306,
       "is_pr": false,
       "max_heartrate": 156,
-      "average_heartrate": 148
+      "average_heartrate": 148,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 477,
+          "average_speed_meters_per_second": 3.38,
+          "average_heartrate": 139
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 466,
+          "average_speed_meters_per_second": 3.46,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 495,
+          "average_speed_meters_per_second": 3.25,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 505,
+          "average_speed_meters_per_second": 3.19,
+          "average_heartrate": 150
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 120,
+          "average_speed_meters_per_second": 3.16,
+          "average_heartrate": 149
+        }
+      ]
     },
     {
       "id": "17444767840",
@@ -108,7 +381,34 @@
       "moving_time_seconds": 2370,
       "total_elevation_gain_meters": 21.6,
       "average_speed_meters_per_second": 2.833,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 563,
+          "average_speed_meters_per_second": 2.86
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 578,
+          "average_speed_meters_per_second": 2.78
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.82
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 98,
+          "average_speed_meters_per_second": 2.79
+        }
+      ]
     },
     {
       "id": "17434509061",
@@ -119,7 +419,79 @@
       "moving_time_seconds": 6852,
       "total_elevation_gain_meters": 88.3,
       "average_speed_meters_per_second": 3.078,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 568,
+          "average_speed_meters_per_second": 2.84
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 527,
+          "average_speed_meters_per_second": 3.05
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 527,
+          "average_speed_meters_per_second": 3.06
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 542,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 537,
+          "average_speed_meters_per_second": 3
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 527,
+          "average_speed_meters_per_second": 3.05
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 546,
+          "average_speed_meters_per_second": 2.95
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 491,
+          "average_speed_meters_per_second": 3.28
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 512,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.2
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 502,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 522,
+          "average_speed_meters_per_second": 3.08
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 62,
+          "average_speed_meters_per_second": 2.68
+        }
+      ]
     },
     {
       "id": "17421617180",
@@ -130,7 +502,44 @@
       "moving_time_seconds": 3540,
       "total_elevation_gain_meters": 39.1,
       "average_speed_meters_per_second": 2.852,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.95
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 550,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 573,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 578,
+          "average_speed_meters_per_second": 2.78
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 556,
+          "average_speed_meters_per_second": 2.9
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 564,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 172,
+          "average_speed_meters_per_second": 2.55
+        }
+      ]
     },
     {
       "id": "15981157712",
@@ -141,7 +550,44 @@
       "moving_time_seconds": 3853,
       "total_elevation_gain_meters": 29.6,
       "average_speed_meters_per_second": 2.568,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 647,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 652,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 633,
+          "average_speed_meters_per_second": 2.54
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 630,
+          "average_speed_meters_per_second": 2.56
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 646,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 86,
+          "average_speed_meters_per_second": 2.77
+        }
+      ]
     },
     {
       "id": "15882589823",
@@ -154,7 +600,314 @@
       "average_speed_meters_per_second": 2.47,
       "is_pr": true,
       "pr_distance": "50.0k",
-      "pr_time_seconds": 25587
+      "pr_time_seconds": 25587,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 682,
+          "average_speed_meters_per_second": 2.36
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 680,
+          "average_speed_meters_per_second": 2.37
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 757,
+          "average_speed_meters_per_second": 2.13
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 686,
+          "average_speed_meters_per_second": 2.34
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 672,
+          "average_speed_meters_per_second": 2.39
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 644,
+          "average_speed_meters_per_second": 2.5
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 673,
+          "average_speed_meters_per_second": 2.39
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 648,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 671,
+          "average_speed_meters_per_second": 2.4
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 627,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 687,
+          "average_speed_meters_per_second": 2.34
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 650,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 627,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 611,
+          "average_speed_meters_per_second": 2.63
+        },
+        {
+          "mile": 15,
+          "moving_time_seconds": 640,
+          "average_speed_meters_per_second": 2.52
+        },
+        {
+          "mile": 16,
+          "moving_time_seconds": 712,
+          "average_speed_meters_per_second": 2.26
+        },
+        {
+          "mile": 17,
+          "moving_time_seconds": 652,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 18,
+          "moving_time_seconds": 648,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 19,
+          "moving_time_seconds": 652,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 20,
+          "moving_time_seconds": 727,
+          "average_speed_meters_per_second": 2.21
+        },
+        {
+          "mile": 21,
+          "moving_time_seconds": 647,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 22,
+          "moving_time_seconds": 637,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 23,
+          "moving_time_seconds": 638,
+          "average_speed_meters_per_second": 2.52
+        },
+        {
+          "mile": 24,
+          "moving_time_seconds": 695,
+          "average_speed_meters_per_second": 2.32
+        },
+        {
+          "mile": 25,
+          "moving_time_seconds": 693,
+          "average_speed_meters_per_second": 2.32
+        },
+        {
+          "mile": 26,
+          "moving_time_seconds": 631,
+          "average_speed_meters_per_second": 2.55
+        },
+        {
+          "mile": 27,
+          "moving_time_seconds": 555,
+          "average_speed_meters_per_second": 2.9
+        },
+        {
+          "mile": 28,
+          "moving_time_seconds": 696,
+          "average_speed_meters_per_second": 2.31
+        },
+        {
+          "mile": 29,
+          "moving_time_seconds": 664,
+          "average_speed_meters_per_second": 2.42
+        },
+        {
+          "mile": 30,
+          "moving_time_seconds": 612,
+          "average_speed_meters_per_second": 2.63
+        },
+        {
+          "mile": 31,
+          "moving_time_seconds": 628,
+          "average_speed_meters_per_second": 2.56
+        },
+        {
+          "mile": 32,
+          "moving_time_seconds": 663,
+          "average_speed_meters_per_second": 2.43
+        },
+        {
+          "mile": 33,
+          "moving_time_seconds": 710,
+          "average_speed_meters_per_second": 2.27
+        },
+        {
+          "mile": 34,
+          "moving_time_seconds": 779,
+          "average_speed_meters_per_second": 2.06
+        },
+        {
+          "mile": 35,
+          "moving_time_seconds": 636,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 36,
+          "moving_time_seconds": 634,
+          "average_speed_meters_per_second": 2.54
+        },
+        {
+          "mile": 37,
+          "moving_time_seconds": 721,
+          "average_speed_meters_per_second": 2.23
+        },
+        {
+          "mile": 38,
+          "moving_time_seconds": 616,
+          "average_speed_meters_per_second": 2.61
+        },
+        {
+          "mile": 39,
+          "moving_time_seconds": 629,
+          "average_speed_meters_per_second": 2.56
+        },
+        {
+          "mile": 40,
+          "moving_time_seconds": 644,
+          "average_speed_meters_per_second": 2.5
+        },
+        {
+          "mile": 41,
+          "moving_time_seconds": 702,
+          "average_speed_meters_per_second": 2.29
+        },
+        {
+          "mile": 42,
+          "moving_time_seconds": 665,
+          "average_speed_meters_per_second": 2.42
+        },
+        {
+          "mile": 43,
+          "moving_time_seconds": 609,
+          "average_speed_meters_per_second": 2.64
+        },
+        {
+          "mile": 44,
+          "moving_time_seconds": 550,
+          "average_speed_meters_per_second": 2.93
+        },
+        {
+          "mile": 45,
+          "moving_time_seconds": 627,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 46,
+          "moving_time_seconds": 586,
+          "average_speed_meters_per_second": 2.75
+        },
+        {
+          "mile": 47,
+          "moving_time_seconds": 592,
+          "average_speed_meters_per_second": 2.72
+        },
+        {
+          "mile": 48,
+          "moving_time_seconds": 606,
+          "average_speed_meters_per_second": 2.65
+        },
+        {
+          "mile": 49,
+          "moving_time_seconds": 671,
+          "average_speed_meters_per_second": 2.4
+        },
+        {
+          "mile": 50,
+          "moving_time_seconds": 719,
+          "average_speed_meters_per_second": 2.24
+        },
+        {
+          "mile": 51,
+          "moving_time_seconds": 687,
+          "average_speed_meters_per_second": 2.34
+        },
+        {
+          "mile": 52,
+          "moving_time_seconds": 669,
+          "average_speed_meters_per_second": 2.41
+        },
+        {
+          "mile": 53,
+          "moving_time_seconds": 575,
+          "average_speed_meters_per_second": 2.8
+        },
+        {
+          "mile": 54,
+          "moving_time_seconds": 627,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 55,
+          "moving_time_seconds": 650,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 56,
+          "moving_time_seconds": 595,
+          "average_speed_meters_per_second": 2.71
+        },
+        {
+          "mile": 57,
+          "moving_time_seconds": 626,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 58,
+          "moving_time_seconds": 583,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 59,
+          "moving_time_seconds": 677,
+          "average_speed_meters_per_second": 2.38
+        },
+        {
+          "mile": 60,
+          "moving_time_seconds": 609,
+          "average_speed_meters_per_second": 2.64
+        },
+        {
+          "mile": 61,
+          "moving_time_seconds": 306,
+          "average_speed_meters_per_second": 2.48
+        }
+      ]
     },
     {
       "id": "15745904231",
@@ -165,7 +918,24 @@
       "moving_time_seconds": 1272,
       "total_elevation_gain_meters": 5.2,
       "average_speed_meters_per_second": 2.59,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 647,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 577,
+          "average_speed_meters_per_second": 2.79
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 48,
+          "average_speed_meters_per_second": 1.5
+        }
+      ]
     },
     {
       "id": "15722488256",
@@ -176,7 +946,89 @@
       "moving_time_seconds": 6783,
       "total_elevation_gain_meters": 66.8,
       "average_speed_meters_per_second": 3.56,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 531,
+          "average_speed_meters_per_second": 3.03
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 464,
+          "average_speed_meters_per_second": 3.47
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 441,
+          "average_speed_meters_per_second": 3.64
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 442,
+          "average_speed_meters_per_second": 3.65
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 442,
+          "average_speed_meters_per_second": 3.63
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 446,
+          "average_speed_meters_per_second": 3.61
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 432,
+          "average_speed_meters_per_second": 3.73
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 449,
+          "average_speed_meters_per_second": 3.59
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 452,
+          "average_speed_meters_per_second": 3.56
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 451,
+          "average_speed_meters_per_second": 3.57
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 437,
+          "average_speed_meters_per_second": 3.69
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 434,
+          "average_speed_meters_per_second": 3.7
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 437,
+          "average_speed_meters_per_second": 3.69
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 500,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 15,
+          "moving_time_seconds": 421,
+          "average_speed_meters_per_second": 3.82
+        },
+        {
+          "mile": 16,
+          "moving_time_seconds": 4,
+          "average_speed_meters_per_second": 2.13
+        }
+      ]
     },
     {
       "id": "15711462488",
@@ -187,7 +1039,29 @@
       "moving_time_seconds": 1908,
       "total_elevation_gain_meters": 13.2,
       "average_speed_meters_per_second": 2.551,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 554,
+          "average_speed_meters_per_second": 2.91
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 517,
+          "average_speed_meters_per_second": 3.11
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 820,
+          "average_speed_meters_per_second": 1.96
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 17,
+          "average_speed_meters_per_second": 2.21
+        }
+      ]
     },
     {
       "id": "15689483654",
@@ -198,7 +1072,29 @@
       "moving_time_seconds": 2898,
       "total_elevation_gain_meters": 14.9,
       "average_speed_meters_per_second": 2.202,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 855,
+          "average_speed_meters_per_second": 1.88
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 717,
+          "average_speed_meters_per_second": 2.24
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 588,
+          "average_speed_meters_per_second": 2.74
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 738,
+          "average_speed_meters_per_second": 2.1
+        }
+      ]
     },
     {
       "id": "15677583770",
@@ -209,7 +1105,64 @@
       "moving_time_seconds": 5213,
       "total_elevation_gain_meters": 50.2,
       "average_speed_meters_per_second": 3.096,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 536,
+          "average_speed_meters_per_second": 3.01
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 526,
+          "average_speed_meters_per_second": 3.06
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 560,
+          "average_speed_meters_per_second": 2.87
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 507,
+          "average_speed_meters_per_second": 3.17
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.26
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 490,
+          "average_speed_meters_per_second": 3.28
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 519,
+          "average_speed_meters_per_second": 3.1
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 495,
+          "average_speed_meters_per_second": 3.25
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 499,
+          "average_speed_meters_per_second": 3.22
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 573,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 14,
+          "average_speed_meters_per_second": 2.95
+        }
+      ]
     },
     {
       "id": "15631736676",
@@ -220,7 +1173,44 @@
       "moving_time_seconds": 3609,
       "total_elevation_gain_meters": 24.7,
       "average_speed_meters_per_second": 2.693,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 625,
+          "average_speed_meters_per_second": 2.58
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 586,
+          "average_speed_meters_per_second": 2.75
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 591,
+          "average_speed_meters_per_second": 2.72
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 679,
+          "average_speed_meters_per_second": 2.37
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 575,
+          "average_speed_meters_per_second": 2.8
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 520,
+          "average_speed_meters_per_second": 3.09
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 33,
+          "average_speed_meters_per_second": 1.88
+        }
+      ]
     },
     {
       "id": "15621671081",
@@ -231,7 +1221,44 @@
       "moving_time_seconds": 4072,
       "total_elevation_gain_meters": 26.1,
       "average_speed_meters_per_second": 2.521,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 590,
+          "average_speed_meters_per_second": 2.73
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 558,
+          "average_speed_meters_per_second": 2.89
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 586,
+          "average_speed_meters_per_second": 2.75
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 567,
+          "average_speed_meters_per_second": 2.84
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 735,
+          "average_speed_meters_per_second": 2.19
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 785,
+          "average_speed_meters_per_second": 2.05
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 251,
+          "average_speed_meters_per_second": 2.42
+        }
+      ]
     },
     {
       "id": "15585460838",
@@ -242,7 +1269,44 @@
       "moving_time_seconds": 5247,
       "total_elevation_gain_meters": 24.2,
       "average_speed_meters_per_second": 2.071,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 692,
+          "average_speed_meters_per_second": 2.33
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 677,
+          "average_speed_meters_per_second": 2.38
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 699,
+          "average_speed_meters_per_second": 2.3
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 711,
+          "average_speed_meters_per_second": 2.26
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 935,
+          "average_speed_meters_per_second": 1.72
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 804,
+          "average_speed_meters_per_second": 2
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 729,
+          "average_speed_meters_per_second": 1.65
+        }
+      ]
     },
     {
       "id": "15564113290",
@@ -253,7 +1317,79 @@
       "moving_time_seconds": 6946,
       "total_elevation_gain_meters": 58.6,
       "average_speed_meters_per_second": 3.042,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 540,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 473,
+          "average_speed_meters_per_second": 3.41
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.26
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 541,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.94
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 525,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 501,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 523,
+          "average_speed_meters_per_second": 3.08
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 526,
+          "average_speed_meters_per_second": 3.05
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 512,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 586,
+          "average_speed_meters_per_second": 2.75
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 594,
+          "average_speed_meters_per_second": 2.71
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 511,
+          "average_speed_meters_per_second": 3.15
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 73,
+          "average_speed_meters_per_second": 2.86
+        }
+      ]
     },
     {
       "id": "15192232573",
@@ -264,7 +1400,44 @@
       "moving_time_seconds": 4560,
       "total_elevation_gain_meters": 23.3,
       "average_speed_meters_per_second": 2.431,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 704,
+          "average_speed_meters_per_second": 2.29
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 714,
+          "average_speed_meters_per_second": 2.26
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 521,
+          "average_speed_meters_per_second": 3.09
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 754,
+          "average_speed_meters_per_second": 2.13
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 491,
+          "average_speed_meters_per_second": 3.28
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 763,
+          "average_speed_meters_per_second": 2.11
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 613,
+          "average_speed_meters_per_second": 2.33
+        }
+      ]
     },
     {
       "id": "15170264641",
@@ -275,7 +1448,74 @@
       "moving_time_seconds": 8239,
       "total_elevation_gain_meters": 51.3,
       "average_speed_meters_per_second": 2.507,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 653,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 625,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 689,
+          "average_speed_meters_per_second": 2.34
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 609,
+          "average_speed_meters_per_second": 2.64
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 700,
+          "average_speed_meters_per_second": 2.3
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 603,
+          "average_speed_meters_per_second": 2.67
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 636,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 634,
+          "average_speed_meters_per_second": 2.54
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 621,
+          "average_speed_meters_per_second": 2.59
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 625,
+          "average_speed_meters_per_second": 2.57
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 606,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 724,
+          "average_speed_meters_per_second": 2.22
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 514,
+          "average_speed_meters_per_second": 2.62
+        }
+      ]
     },
     {
       "id": "15159661178",
@@ -286,7 +1526,39 @@
       "moving_time_seconds": 3362,
       "total_elevation_gain_meters": 32.7,
       "average_speed_meters_per_second": 2.491,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 656,
+          "average_speed_meters_per_second": 2.45
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 636,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 637,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 649,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 653,
+          "average_speed_meters_per_second": 2.46
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 131,
+          "average_speed_meters_per_second": 2.51
+        }
+      ]
     },
     {
       "id": "15128120989",
@@ -297,7 +1569,44 @@
       "moving_time_seconds": 4030,
       "total_elevation_gain_meters": 22.9,
       "average_speed_meters_per_second": 2.447,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 582,
+          "average_speed_meters_per_second": 2.77
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 623,
+          "average_speed_meters_per_second": 2.59
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 622,
+          "average_speed_meters_per_second": 2.59
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 680,
+          "average_speed_meters_per_second": 2.37
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 677,
+          "average_speed_meters_per_second": 2.38
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 758,
+          "average_speed_meters_per_second": 2.12
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 88,
+          "average_speed_meters_per_second": 2.31
+        }
+      ]
     },
     {
       "id": "15116672803",
@@ -308,7 +1617,59 @@
       "moving_time_seconds": 5956,
       "total_elevation_gain_meters": 41.8,
       "average_speed_meters_per_second": 2.49,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 639,
+          "average_speed_meters_per_second": 2.52
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 669,
+          "average_speed_meters_per_second": 2.41
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 671,
+          "average_speed_meters_per_second": 2.4
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 665,
+          "average_speed_meters_per_second": 2.42
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 661,
+          "average_speed_meters_per_second": 2.44
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 597,
+          "average_speed_meters_per_second": 2.69
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 620,
+          "average_speed_meters_per_second": 2.6
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 616,
+          "average_speed_meters_per_second": 2.61
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 673,
+          "average_speed_meters_per_second": 2.39
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 145,
+          "average_speed_meters_per_second": 2.38
+        }
+      ]
     },
     {
       "id": "14907362445",
@@ -321,7 +1682,144 @@
       "average_speed_meters_per_second": 2.469,
       "is_pr": true,
       "pr_distance": "Marathon",
-      "pr_time_seconds": 21302
+      "pr_time_seconds": 21302,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 675,
+          "average_speed_meters_per_second": 2.39
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 650,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 673,
+          "average_speed_meters_per_second": 2.39
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 629,
+          "average_speed_meters_per_second": 2.56
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 925,
+          "average_speed_meters_per_second": 1.74
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 665,
+          "average_speed_meters_per_second": 2.42
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 650,
+          "average_speed_meters_per_second": 2.48
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 661,
+          "average_speed_meters_per_second": 2.44
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 667,
+          "average_speed_meters_per_second": 2.41
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 678,
+          "average_speed_meters_per_second": 2.37
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 637,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 678,
+          "average_speed_meters_per_second": 2.38
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 646,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 709,
+          "average_speed_meters_per_second": 2.27
+        },
+        {
+          "mile": 15,
+          "moving_time_seconds": 691,
+          "average_speed_meters_per_second": 2.33
+        },
+        {
+          "mile": 16,
+          "moving_time_seconds": 728,
+          "average_speed_meters_per_second": 2.21
+        },
+        {
+          "mile": 17,
+          "moving_time_seconds": 713,
+          "average_speed_meters_per_second": 2.26
+        },
+        {
+          "mile": 18,
+          "moving_time_seconds": 660,
+          "average_speed_meters_per_second": 2.44
+        },
+        {
+          "mile": 19,
+          "moving_time_seconds": 636,
+          "average_speed_meters_per_second": 2.53
+        },
+        {
+          "mile": 20,
+          "moving_time_seconds": 665,
+          "average_speed_meters_per_second": 2.42
+        },
+        {
+          "mile": 21,
+          "moving_time_seconds": 671,
+          "average_speed_meters_per_second": 2.4
+        },
+        {
+          "mile": 22,
+          "moving_time_seconds": 511,
+          "average_speed_meters_per_second": 3.15
+        },
+        {
+          "mile": 23,
+          "moving_time_seconds": 490,
+          "average_speed_meters_per_second": 3.29
+        },
+        {
+          "mile": 24,
+          "moving_time_seconds": 532,
+          "average_speed_meters_per_second": 3.02
+        },
+        {
+          "mile": 25,
+          "moving_time_seconds": 565,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 26,
+          "moving_time_seconds": 565,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 27,
+          "moving_time_seconds": 122,
+          "average_speed_meters_per_second": 2.9
+        }
+      ]
     },
     {
       "id": "14895561961",
@@ -332,7 +1830,34 @@
       "moving_time_seconds": 2166,
       "total_elevation_gain_meters": 19.6,
       "average_speed_meters_per_second": 3.177,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 477,
+          "average_speed_meters_per_second": 3.38
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 513,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 523,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 511,
+          "average_speed_meters_per_second": 3.15
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 143,
+          "average_speed_meters_per_second": 3.1
+        }
+      ]
     },
     {
       "id": "14864418709",
@@ -343,7 +1868,34 @@
       "moving_time_seconds": 2522,
       "total_elevation_gain_meters": 16.7,
       "average_speed_meters_per_second": 2.691,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 606,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 611,
+          "average_speed_meters_per_second": 2.64
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 573,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 605,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 127,
+          "average_speed_meters_per_second": 2.73
+        }
+      ]
     },
     {
       "id": "14855035671",
@@ -354,7 +1906,34 @@
       "moving_time_seconds": 2549,
       "total_elevation_gain_meters": 17.4,
       "average_speed_meters_per_second": 2.654,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.82
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 617,
+          "average_speed_meters_per_second": 2.61
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 615,
+          "average_speed_meters_per_second": 2.62
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 620,
+          "average_speed_meters_per_second": 2.6
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 125,
+          "average_speed_meters_per_second": 2.61
+        }
+      ]
     },
     {
       "id": "14832981121",
@@ -365,7 +1944,64 @@
       "moving_time_seconds": 5732,
       "total_elevation_gain_meters": 62.8,
       "average_speed_meters_per_second": 2.821,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 553,
+          "average_speed_meters_per_second": 2.91
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 579,
+          "average_speed_meters_per_second": 2.78
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 567,
+          "average_speed_meters_per_second": 2.83
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 578,
+          "average_speed_meters_per_second": 2.79
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 551,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 604,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 589,
+          "average_speed_meters_per_second": 2.73
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 565,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 544,
+          "average_speed_meters_per_second": 2.96
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 30,
+          "average_speed_meters_per_second": 2.56
+        }
+      ]
     },
     {
       "id": "14822571073",
@@ -376,7 +2012,44 @@
       "moving_time_seconds": 3654,
       "total_elevation_gain_meters": 22.1,
       "average_speed_meters_per_second": 2.77,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 515,
+          "average_speed_meters_per_second": 3.13
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 574,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 608,
+          "average_speed_meters_per_second": 2.64
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 613,
+          "average_speed_meters_per_second": 2.63
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 596,
+          "average_speed_meters_per_second": 2.7
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 577,
+          "average_speed_meters_per_second": 2.79
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 171,
+          "average_speed_meters_per_second": 2.7
+        }
+      ]
     },
     {
       "id": "14677789196",
@@ -387,7 +2060,29 @@
       "moving_time_seconds": 1959,
       "total_elevation_gain_meters": 16,
       "average_speed_meters_per_second": 2.864,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 500,
+          "average_speed_meters_per_second": 3.22
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 606,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 281,
+          "average_speed_meters_per_second": 2.78
+        }
+      ]
     },
     {
       "id": "14653459701",
@@ -400,7 +2095,79 @@
       "average_speed_meters_per_second": 3.706,
       "is_pr": true,
       "pr_distance": "Half Marathon",
-      "pr_time_seconds": 5697
+      "pr_time_seconds": 5697,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 456,
+          "average_speed_meters_per_second": 3.54
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 450,
+          "average_speed_meters_per_second": 3.58
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 453,
+          "average_speed_meters_per_second": 3.55
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 459,
+          "average_speed_meters_per_second": 3.51
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 446,
+          "average_speed_meters_per_second": 3.61
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 430,
+          "average_speed_meters_per_second": 3.74
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 440,
+          "average_speed_meters_per_second": 3.66
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 460,
+          "average_speed_meters_per_second": 3.5
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 419,
+          "average_speed_meters_per_second": 3.85
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 423,
+          "average_speed_meters_per_second": 3.8
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 429,
+          "average_speed_meters_per_second": 3.74
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 412,
+          "average_speed_meters_per_second": 3.92
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 391,
+          "average_speed_meters_per_second": 4.1
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 73,
+          "average_speed_meters_per_second": 4.86
+        }
+      ]
     },
     {
       "id": "14645751449",
@@ -411,7 +2178,24 @@
       "moving_time_seconds": 1317,
       "total_elevation_gain_meters": 8.9,
       "average_speed_meters_per_second": 2.585,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 586,
+          "average_speed_meters_per_second": 2.75
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 646,
+          "average_speed_meters_per_second": 2.49
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 85,
+          "average_speed_meters_per_second": 2.17
+        }
+      ]
     },
     {
       "id": "14605675132",
@@ -424,7 +2208,59 @@
       "average_speed_meters_per_second": 3.258,
       "is_pr": true,
       "pr_distance": "1 mile",
-      "pr_time_seconds": 349
+      "pr_time_seconds": 349,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 497,
+          "average_speed_meters_per_second": 3.24
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 507,
+          "average_speed_meters_per_second": 3.18
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 543,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 516,
+          "average_speed_meters_per_second": 3.12
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 520,
+          "average_speed_meters_per_second": 3.1
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 499,
+          "average_speed_meters_per_second": 3.23
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 517,
+          "average_speed_meters_per_second": 3.11
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 360,
+          "average_speed_meters_per_second": 4.47
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 103,
+          "average_speed_meters_per_second": 2.97
+        }
+      ]
     },
     {
       "id": "14565560214",
@@ -435,7 +2271,34 @@
       "moving_time_seconds": 2344,
       "total_elevation_gain_meters": 17.5,
       "average_speed_meters_per_second": 2.758,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 565,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 650,
+          "average_speed_meters_per_second": 2.47
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 563,
+          "average_speed_meters_per_second": 2.86
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 556,
+          "average_speed_meters_per_second": 2.89
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 10,
+          "average_speed_meters_per_second": 2.61
+        }
+      ]
     },
     {
       "id": "14555900600",
@@ -448,7 +2311,54 @@
       "average_speed_meters_per_second": 3.302,
       "is_pr": true,
       "pr_distance": "1 mile",
-      "pr_time_seconds": 374
+      "pr_time_seconds": 374,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 440,
+          "average_speed_meters_per_second": 3.66
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 495,
+          "average_speed_meters_per_second": 3.25
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 530,
+          "average_speed_meters_per_second": 3.04
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 502,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.18
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 521,
+          "average_speed_meters_per_second": 3.08
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.19
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 415,
+          "average_speed_meters_per_second": 3.89
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 250,
+          "average_speed_meters_per_second": 3.49
+        }
+      ]
     },
     {
       "id": "14429850235",
@@ -459,7 +2369,24 @@
       "moving_time_seconds": 950,
       "total_elevation_gain_meters": 13.4,
       "average_speed_meters_per_second": 3.421,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 463,
+          "average_speed_meters_per_second": 3.48
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 9,
+          "average_speed_meters_per_second": 3.03
+        }
+      ]
     },
     {
       "id": "14420925055",
@@ -470,7 +2397,44 @@
       "moving_time_seconds": 3173,
       "total_elevation_gain_meters": 26.6,
       "average_speed_meters_per_second": 3.06,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 520,
+          "average_speed_meters_per_second": 3.1
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 550,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 412,
+          "average_speed_meters_per_second": 3.91
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 573,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 556,
+          "average_speed_meters_per_second": 2.9
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 543,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 19,
+          "average_speed_meters_per_second": 2.63
+        }
+      ]
     },
     {
       "id": "14410829232",
@@ -481,7 +2445,54 @@
       "moving_time_seconds": 4506,
       "total_elevation_gain_meters": 34.6,
       "average_speed_meters_per_second": 2.885,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 541,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.94
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 543,
+          "average_speed_meters_per_second": 2.96
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 566,
+          "average_speed_meters_per_second": 2.84
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 549,
+          "average_speed_meters_per_second": 2.93
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 587,
+          "average_speed_meters_per_second": 2.74
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 562,
+          "average_speed_meters_per_second": 2.86
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 52,
+          "average_speed_meters_per_second": 2.36
+        }
+      ]
     },
     {
       "id": "14257803658",
@@ -492,7 +2503,39 @@
       "moving_time_seconds": 2852,
       "total_elevation_gain_meters": 19.3,
       "average_speed_meters_per_second": 2.877,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 540,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 549,
+          "average_speed_meters_per_second": 2.93
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 567,
+          "average_speed_meters_per_second": 2.84
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 583,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 560,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 53,
+          "average_speed_meters_per_second": 2.95
+        }
+      ]
     },
     {
       "id": "14246864628",
@@ -503,7 +2546,34 @@
       "moving_time_seconds": 1783,
       "total_elevation_gain_meters": 17.4,
       "average_speed_meters_per_second": 3.655,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.62
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 424,
+          "average_speed_meters_per_second": 3.8
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 434,
+          "average_speed_meters_per_second": 3.71
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 459,
+          "average_speed_meters_per_second": 3.51
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 22,
+          "average_speed_meters_per_second": 3.48
+        }
+      ]
     },
     {
       "id": "14227254384",
@@ -514,7 +2584,79 @@
       "moving_time_seconds": 7313,
       "total_elevation_gain_meters": 72.9,
       "average_speed_meters_per_second": 2.902,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 544,
+          "average_speed_meters_per_second": 2.96
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.95
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 560,
+          "average_speed_meters_per_second": 2.87
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 570,
+          "average_speed_meters_per_second": 2.82
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 556,
+          "average_speed_meters_per_second": 2.9
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 537,
+          "average_speed_meters_per_second": 3
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 576,
+          "average_speed_meters_per_second": 2.79
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 554,
+          "average_speed_meters_per_second": 2.91
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 567,
+          "average_speed_meters_per_second": 2.84
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 560,
+          "average_speed_meters_per_second": 2.87
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 551,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 535,
+          "average_speed_meters_per_second": 3.01
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 97,
+          "average_speed_meters_per_second": 3.09
+        }
+      ]
     },
     {
       "id": "14206928000",
@@ -525,7 +2667,44 @@
       "moving_time_seconds": 3218,
       "total_elevation_gain_meters": 25.6,
       "average_speed_meters_per_second": 3.027,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 527,
+          "average_speed_meters_per_second": 3.06
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.94
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 542,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 541,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 521,
+          "average_speed_meters_per_second": 3.09
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 512,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 28,
+          "average_speed_meters_per_second": 2.96
+        }
+      ]
     },
     {
       "id": "14179064999",
@@ -536,7 +2715,19 @@
       "moving_time_seconds": 497,
       "total_elevation_gain_meters": 10.2,
       "average_speed_meters_per_second": 3.285,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 489,
+          "average_speed_meters_per_second": 3.29
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 8,
+          "average_speed_meters_per_second": 2.76
+        }
+      ]
     },
     {
       "id": "14149815284",
@@ -547,7 +2738,29 @@
       "moving_time_seconds": 2080,
       "total_elevation_gain_meters": 14.1,
       "average_speed_meters_per_second": 3.093,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 523,
+          "average_speed_meters_per_second": 3.08
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.16
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 545,
+          "average_speed_meters_per_second": 2.94
+        }
+      ]
     },
     {
       "id": "14141725711",
@@ -558,7 +2771,49 @@
       "moving_time_seconds": 4002,
       "total_elevation_gain_meters": 31,
       "average_speed_meters_per_second": 2.998,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 540,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 552,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 561,
+          "average_speed_meters_per_second": 2.87
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 549,
+          "average_speed_meters_per_second": 2.93
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 505,
+          "average_speed_meters_per_second": 3.19
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 534,
+          "average_speed_meters_per_second": 3.01
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 515,
+          "average_speed_meters_per_second": 3.13
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 246,
+          "average_speed_meters_per_second": 2.97
+        }
+      ]
     },
     {
       "id": "14122152958",
@@ -569,7 +2824,39 @@
       "moving_time_seconds": 2319,
       "total_elevation_gain_meters": 21.9,
       "average_speed_meters_per_second": 3.505,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 482,
+          "average_speed_meters_per_second": 3.34
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 488,
+          "average_speed_meters_per_second": 3.29
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 442,
+          "average_speed_meters_per_second": 3.64
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 441,
+          "average_speed_meters_per_second": 3.65
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 442,
+          "average_speed_meters_per_second": 3.64
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 24,
+          "average_speed_meters_per_second": 3.31
+        }
+      ]
     },
     {
       "id": "14073125875",
@@ -582,7 +2869,24 @@
       "average_speed_meters_per_second": 3.805,
       "is_pr": true,
       "pr_distance": "1k",
-      "pr_time_seconds": 229
+      "pr_time_seconds": 229,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 431,
+          "average_speed_meters_per_second": 3.73
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 419,
+          "average_speed_meters_per_second": 3.84
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 38,
+          "average_speed_meters_per_second": 4.18
+        }
+      ]
     },
     {
       "id": "14063160469",
@@ -593,7 +2897,34 @@
       "moving_time_seconds": 1865,
       "total_elevation_gain_meters": 15,
       "average_speed_meters_per_second": 3.497,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 480,
+          "average_speed_meters_per_second": 3.35
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.62
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 432,
+          "average_speed_meters_per_second": 3.72
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 25,
+          "average_speed_meters_per_second": 3.28
+        }
+      ]
     },
     {
       "id": "14014708203",
@@ -604,7 +2935,24 @@
       "moving_time_seconds": 1334,
       "total_elevation_gain_meters": 11.1,
       "average_speed_meters_per_second": 3.207,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 463,
+          "average_speed_meters_per_second": 3.48
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 464,
+          "average_speed_meters_per_second": 3.47
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 407,
+          "average_speed_meters_per_second": 2.6
+        }
+      ]
     },
     {
       "id": "11548911879",
@@ -619,7 +2967,87 @@
       "max_heartrate": 186,
       "average_heartrate": 168,
       "pr_distance": "20k",
-      "pr_time_seconds": 5704
+      "pr_time_seconds": 5704,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 489,
+          "average_speed_meters_per_second": 3.3,
+          "average_heartrate": 152
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.33,
+          "average_heartrate": 153
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.36,
+          "average_heartrate": 158
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 471,
+          "average_speed_meters_per_second": 3.42,
+          "average_heartrate": 162
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.44,
+          "average_heartrate": 164
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.42,
+          "average_heartrate": 164
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 459,
+          "average_speed_meters_per_second": 3.51,
+          "average_heartrate": 168
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 480,
+          "average_speed_meters_per_second": 3.35,
+          "average_heartrate": 173
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 436,
+          "average_speed_meters_per_second": 3.7,
+          "average_heartrate": 174
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 443,
+          "average_speed_meters_per_second": 3.63,
+          "average_heartrate": 177
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 460,
+          "average_speed_meters_per_second": 3.5,
+          "average_heartrate": 179
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 436,
+          "average_speed_meters_per_second": 3.69,
+          "average_heartrate": 180
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 403,
+          "average_speed_meters_per_second": 3.95,
+          "average_heartrate": 184
+        }
+      ]
     },
     {
       "id": "11543729775",
@@ -632,7 +3060,33 @@
       "average_speed_meters_per_second": 2.736,
       "is_pr": false,
       "max_heartrate": 148,
-      "average_heartrate": 132
+      "average_heartrate": 132,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 588,
+          "average_speed_meters_per_second": 2.74,
+          "average_heartrate": 125
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 600,
+          "average_speed_meters_per_second": 2.68,
+          "average_heartrate": 131
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 579,
+          "average_speed_meters_per_second": 2.78,
+          "average_heartrate": 138
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 108,
+          "average_speed_meters_per_second": 2.78,
+          "average_heartrate": 142
+        }
+      ]
     },
     {
       "id": "11529020181",
@@ -645,7 +3099,39 @@
       "average_speed_meters_per_second": 3.285,
       "is_pr": false,
       "max_heartrate": 166,
-      "average_heartrate": 155
+      "average_heartrate": 155,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 457,
+          "average_speed_meters_per_second": 3.53,
+          "average_heartrate": 141
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 487,
+          "average_speed_meters_per_second": 3.3,
+          "average_heartrate": 157
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 508,
+          "average_speed_meters_per_second": 3.17,
+          "average_heartrate": 158
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 505,
+          "average_speed_meters_per_second": 3.18,
+          "average_heartrate": 159
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 450,
+          "average_speed_meters_per_second": 3.24,
+          "average_heartrate": 160
+        }
+      ]
     },
     {
       "id": "11497708403",
@@ -656,7 +3142,39 @@
       "moving_time_seconds": 2457,
       "total_elevation_gain_meters": 16.6,
       "average_speed_meters_per_second": 3.303,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 513,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 479,
+          "average_speed_meters_per_second": 3.36
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 501,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 21,
+          "average_speed_meters_per_second": 3.28
+        }
+      ]
     },
     {
       "id": "11489289694",
@@ -669,7 +3187,29 @@
       "average_speed_meters_per_second": 4.018,
       "is_pr": true,
       "pr_distance": "2 mile",
-      "pr_time_seconds": 769
+      "pr_time_seconds": 769,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 432,
+          "average_speed_meters_per_second": 3.73
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 382,
+          "average_speed_meters_per_second": 4.21
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 391,
+          "average_speed_meters_per_second": 4.12
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 39,
+          "average_speed_meters_per_second": 4.26
+        }
+      ]
     },
     {
       "id": "11483051908",
@@ -680,7 +3220,64 @@
       "moving_time_seconds": 4828,
       "total_elevation_gain_meters": 36.4,
       "average_speed_meters_per_second": 3.4,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.44
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.45
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 483,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.43
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 475,
+          "average_speed_meters_per_second": 3.38
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.32
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 456,
+          "average_speed_meters_per_second": 3.53
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 487,
+          "average_speed_meters_per_second": 3.3
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 90,
+          "average_speed_meters_per_second": 3.57
+        }
+      ]
     },
     {
       "id": "11459364691",
@@ -691,7 +3288,39 @@
       "moving_time_seconds": 2539,
       "total_elevation_gain_meters": 13,
       "average_speed_meters_per_second": 3.219,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.17
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 483,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.2
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 513,
+          "average_speed_meters_per_second": 3.14
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 487,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 44,
+          "average_speed_meters_per_second": 2.86
+        }
+      ]
     },
     {
       "id": "11442646291",
@@ -702,7 +3331,44 @@
       "moving_time_seconds": 3414,
       "total_elevation_gain_meters": 18,
       "average_speed_meters_per_second": 2.833,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 545,
+          "average_speed_meters_per_second": 2.96
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 557,
+          "average_speed_meters_per_second": 2.89
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 550,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 583,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 572,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 600,
+          "average_speed_meters_per_second": 2.68
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 7,
+          "average_speed_meters_per_second": 2
+        }
+      ]
     },
     {
       "id": "11434898317",
@@ -713,7 +3379,54 @@
       "moving_time_seconds": 3994,
       "total_elevation_gain_meters": 44.9,
       "average_speed_meters_per_second": 3.246,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 477,
+          "average_speed_meters_per_second": 3.38
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 502,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.26
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 488,
+          "average_speed_meters_per_second": 3.3
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 492,
+          "average_speed_meters_per_second": 3.27
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 510,
+          "average_speed_meters_per_second": 3.16
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 489,
+          "average_speed_meters_per_second": 3.29
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 511,
+          "average_speed_meters_per_second": 3.15
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 31,
+          "average_speed_meters_per_second": 2.8
+        }
+      ]
     },
     {
       "id": "11420406342",
@@ -724,7 +3437,44 @@
       "moving_time_seconds": 2941,
       "total_elevation_gain_meters": 25.7,
       "average_speed_meters_per_second": 3.326,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 437,
+          "average_speed_meters_per_second": 3.69
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 470,
+          "average_speed_meters_per_second": 3.42
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 467,
+          "average_speed_meters_per_second": 3.45
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 577,
+          "average_speed_meters_per_second": 2.79
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 471,
+          "average_speed_meters_per_second": 3.41
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 35,
+          "average_speed_meters_per_second": 3.56
+        }
+      ]
     },
     {
       "id": "11325926848",
@@ -735,7 +3485,39 @@
       "moving_time_seconds": 2547,
       "total_elevation_gain_meters": 15.5,
       "average_speed_meters_per_second": 3.191,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 432,
+          "average_speed_meters_per_second": 3.73
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 463,
+          "average_speed_meters_per_second": 3.48
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 471,
+          "average_speed_meters_per_second": 3.42
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 604,
+          "average_speed_meters_per_second": 2.66
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 552,
+          "average_speed_meters_per_second": 2.92
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 25,
+          "average_speed_meters_per_second": 3.09
+        }
+      ]
     },
     {
       "id": "11191058754",
@@ -746,7 +3528,29 @@
       "moving_time_seconds": 1740,
       "total_elevation_gain_meters": 22.9,
       "average_speed_meters_per_second": 3.268,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 502,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 491,
+          "average_speed_meters_per_second": 3.27
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 261,
+          "average_speed_meters_per_second": 3.28
+        }
+      ]
     },
     {
       "id": "11145592062",
@@ -757,7 +3561,34 @@
       "moving_time_seconds": 1996,
       "total_elevation_gain_meters": 17.2,
       "average_speed_meters_per_second": 3.316,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 459,
+          "average_speed_meters_per_second": 3.51
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 506,
+          "average_speed_meters_per_second": 3.18
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 495,
+          "average_speed_meters_per_second": 3.25
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 58,
+          "average_speed_meters_per_second": 3.09
+        }
+      ]
     },
     {
       "id": "10980542352",
@@ -770,7 +3601,79 @@
       "average_speed_meters_per_second": 3.402,
       "is_pr": true,
       "pr_distance": "Half Marathon",
-      "pr_time_seconds": 6207
+      "pr_time_seconds": 6207,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 521,
+          "average_speed_meters_per_second": 3.09
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.16
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 466,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 463,
+          "average_speed_meters_per_second": 3.48
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 453,
+          "average_speed_meters_per_second": 3.55
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 452,
+          "average_speed_meters_per_second": 3.56
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 447,
+          "average_speed_meters_per_second": 3.61
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 446,
+          "average_speed_meters_per_second": 3.6
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 447,
+          "average_speed_meters_per_second": 3.6
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 463,
+          "average_speed_meters_per_second": 3.47
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 480,
+          "average_speed_meters_per_second": 3.35
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 527,
+          "average_speed_meters_per_second": 3.05
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 159,
+          "average_speed_meters_per_second": 3.62
+        }
+      ]
     },
     {
       "id": "10750559130",
@@ -781,7 +3684,54 @@
       "moving_time_seconds": 4065,
       "total_elevation_gain_meters": 23.7,
       "average_speed_meters_per_second": 3.19,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 492,
+          "average_speed_meters_per_second": 3.27
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 515,
+          "average_speed_meters_per_second": 3.13
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 497,
+          "average_speed_meters_per_second": 3.24
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 505,
+          "average_speed_meters_per_second": 3.18
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 511,
+          "average_speed_meters_per_second": 3.15
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 515,
+          "average_speed_meters_per_second": 3.12
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 502,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 500,
+          "average_speed_meters_per_second": 3.22
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 28,
+          "average_speed_meters_per_second": 3.16
+        }
+      ]
     },
     {
       "id": "10717984356",
@@ -792,7 +3742,34 @@
       "moving_time_seconds": 1711,
       "total_elevation_gain_meters": 13.5,
       "average_speed_meters_per_second": 3.806,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 417,
+          "average_speed_meters_per_second": 3.86
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 422,
+          "average_speed_meters_per_second": 3.81
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 430,
+          "average_speed_meters_per_second": 3.74
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 419,
+          "average_speed_meters_per_second": 3.84
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 23,
+          "average_speed_meters_per_second": 3.27
+        }
+      ]
     },
     {
       "id": "10711004953",
@@ -803,7 +3780,44 @@
       "moving_time_seconds": 2930,
       "total_elevation_gain_meters": 19.8,
       "average_speed_meters_per_second": 3.359,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 455,
+          "average_speed_meters_per_second": 3.54
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 473,
+          "average_speed_meters_per_second": 3.4
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 489,
+          "average_speed_meters_per_second": 3.29
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 491,
+          "average_speed_meters_per_second": 3.27
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 491,
+          "average_speed_meters_per_second": 3.28
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 472,
+          "average_speed_meters_per_second": 3.41
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 59,
+          "average_speed_meters_per_second": 3.09
+        }
+      ]
     },
     {
       "id": "10704021752",
@@ -814,7 +3828,44 @@
       "moving_time_seconds": 2847,
       "total_elevation_gain_meters": 30.8,
       "average_speed_meters_per_second": 3.472,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 456,
+          "average_speed_meters_per_second": 3.53
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 464,
+          "average_speed_meters_per_second": 3.47
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 468,
+          "average_speed_meters_per_second": 3.44
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 461,
+          "average_speed_meters_per_second": 3.49
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 68,
+          "average_speed_meters_per_second": 3.38
+        }
+      ]
     },
     {
       "id": "10690744148",
@@ -827,7 +3878,79 @@
       "average_speed_meters_per_second": 3.383,
       "is_pr": true,
       "pr_distance": "Half Marathon",
-      "pr_time_seconds": 6353
+      "pr_time_seconds": 6353,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 532,
+          "average_speed_meters_per_second": 3.03
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 534,
+          "average_speed_meters_per_second": 3.01
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 518,
+          "average_speed_meters_per_second": 3.11
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 524,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 516,
+          "average_speed_meters_per_second": 3.12
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 514,
+          "average_speed_meters_per_second": 3.13
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 466,
+          "average_speed_meters_per_second": 3.45
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 458,
+          "average_speed_meters_per_second": 3.51
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 441,
+          "average_speed_meters_per_second": 3.65
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 438,
+          "average_speed_meters_per_second": 3.68
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 425,
+          "average_speed_meters_per_second": 3.79
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 423,
+          "average_speed_meters_per_second": 3.8
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 408,
+          "average_speed_meters_per_second": 3.94
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 119,
+          "average_speed_meters_per_second": 3.73
+        }
+      ]
     },
     {
       "id": "10695970866",
@@ -838,7 +3961,44 @@
       "moving_time_seconds": 3302,
       "total_elevation_gain_meters": 32,
       "average_speed_meters_per_second": 3.022,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 538,
+          "average_speed_meters_per_second": 3
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 553,
+          "average_speed_meters_per_second": 2.91
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 525,
+          "average_speed_meters_per_second": 3.06
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 536,
+          "average_speed_meters_per_second": 3
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 520,
+          "average_speed_meters_per_second": 3.09
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 524,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 106,
+          "average_speed_meters_per_second": 3.04
+        }
+      ]
     },
     {
       "id": "10680161798",
@@ -849,7 +4009,34 @@
       "moving_time_seconds": 1946,
       "total_elevation_gain_meters": 26.8,
       "average_speed_meters_per_second": 3.348,
-      "is_pr": false
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 584,
+          "average_speed_meters_per_second": 2.76
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 484,
+          "average_speed_meters_per_second": 3.32
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 478,
+          "average_speed_meters_per_second": 3.37
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.43
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 33,
+          "average_speed_meters_per_second": 2.26
+        }
+      ]
     },
     {
       "id": "10656463744",
@@ -862,7 +4049,39 @@
       "average_speed_meters_per_second": 3.291,
       "is_pr": true,
       "pr_distance": "5k",
-      "pr_time_seconds": 1517
+      "pr_time_seconds": 1517,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.32
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 499,
+          "average_speed_meters_per_second": 3.23
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.25
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 493,
+          "average_speed_meters_per_second": 3.27
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 475,
+          "average_speed_meters_per_second": 3.39
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 2,
+          "average_speed_meters_per_second": 4.05
+        }
+      ]
     }
   ],
   "upcoming_events": []

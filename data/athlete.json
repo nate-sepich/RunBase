@@ -1,0 +1,21 @@
+{
+  "name": "Gabe Hiatt",
+  "max_hr": 200,
+  "hr_zones": {
+    "z1": { "label": "Recovery",     "min_pct": 0,   "max_pct": 60,  "color": "#9CA3AF" },
+    "z2": { "label": "Aerobic Base", "min_pct": 60,  "max_pct": 70,  "color": "#60A5FA" },
+    "z3": { "label": "Tempo",        "min_pct": 70,  "max_pct": 80,  "color": "#34D399" },
+    "z4": { "label": "Threshold",    "min_pct": 80,  "max_pct": 90,  "color": "#FB923C" },
+    "z5": { "label": "VO2 Max",      "min_pct": 90,  "max_pct": 100, "color": "#F87171" }
+  },
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.5868,
+    "lon": -93.6250
+  },
+  "notification": {
+    "method": "TBD",
+    "brief_time_utc": "09:00"
+  }
+}
