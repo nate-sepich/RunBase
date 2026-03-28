@@ -1,0 +1,17 @@
+version = 0.1
+
+[dev.deploy.parameters]
+stack_name = "runbase-messaging-dev"
+resolve_s3 = true
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+parameter_overrides = "Stage=dev EnableDailyBriefSchedule=false EnablePostRunScanSchedule=false RunBaseGithubRepository=nate-sepich/RunBase RunBaseGithubBranch=main RunBaseGithubRunsPath=data/runs.json"
+
+[prod.deploy.parameters]
+stack_name = "runbase-messaging-prod"
+resolve_s3 = true
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+parameter_overrides = "Stage=prod EnableDailyBriefSchedule=false EnablePostRunScanSchedule=false RunBaseGithubRepository=nate-sepich/RunBase RunBaseGithubBranch=main RunBaseGithubRunsPath=data/runs.json"

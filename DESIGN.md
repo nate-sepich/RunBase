@@ -75,7 +75,7 @@ Zone target: Keep HR 130–155 bpm
 • 45min+: 1 gel at mile 4
 • Carry water if >60min out
 
-📍 Full plan: https://gabe.github.io/RunBase
+📍 Full plan: https://nate-sepich.github.io/RunBase
 
 Good luck out there 💪
 ```

@@ -1,39 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { metersToMiles, pacePerMile, formatDate } from '../lib/format';
+import { metersToMiles } from '../lib/format';
 import type { Activity } from '../lib/types';
 import runStore from '../../data/runs.json';
 import trainingPlan from '../../data/training-plan.json';
+import { getPlanStart, getWeekStart, getSessionDate, isoDate, utcToday } from '../lib/server/trainingPlan.js';
 
 const activities: Activity[] = runStore.activities;
-
-// --- Date helpers ---
-const planStart = new Date(trainingPlan.plan_start + 'T00:00:00Z');
-
-function getWeekStart(weekNum: number): Date {
-  const d = new Date(planStart);
-  d.setUTCDate(d.getUTCDate() + (weekNum - 1) * 7);
-  return d;
-}
-
-function getSessionDate(weekNum: number, dayName: string): Date {
-  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-  const weekStart = getWeekStart(weekNum); // Monday
-  const targetDay = days.indexOf(dayName);
-  const startDay = weekStart.getUTCDay(); // 0=Sun
-  let diff = targetDay - startDay;
-  if (diff < 0) diff += 7;
-  const d = new Date(weekStart);
-  d.setUTCDate(d.getUTCDate() + diff);
-  return d;
-}
-
-function isoDate(d: Date): string {
-  return d.toISOString().slice(0, 10);
-}
+const planStart = getPlanStart(trainingPlan as any);
 
 function today(): string {
-  return new Date().toISOString().slice(0, 10);
+  return utcToday();
 }
 
 function formatShortDate(d: Date): string {
@@ -42,7 +19,7 @@ function formatShortDate(d: Date): string {
 
 // --- Match logged runs to planned sessions (±1 day, within 20% distance) ---
 function findMatchingRun(weekNum: number, dayName: string, plannedMiles: number | null): Activity | null {
-  const sessionDate = getSessionDate(weekNum, dayName);
+  const sessionDate = getSessionDate(trainingPlan as any, weekNum, dayName);
   const sessionIso = isoDate(sessionDate);
 
   return activities.find(a => {
@@ -80,8 +57,8 @@ function style(type: string) {
 const todayIso = today();
 let currentWeek = 0;
 for (const week of trainingPlan.weeks) {
-  const ws = isoDate(getWeekStart(week.week));
-  const we = isoDate(new Date(getWeekStart(week.week).getTime() + 6 * 86400000));
+  const ws = isoDate(getWeekStart(trainingPlan as any, week.week));
+  const we = isoDate(new Date(getWeekStart(trainingPlan as any, week.week).getTime() + 6 * 86400000));
   if (todayIso >= ws && todayIso <= we) {
     currentWeek = week.week;
     break;
@@ -134,7 +111,7 @@ const races = (trainingPlan as any).races ?? [];
 
     <!-- Weeks -->
     {trainingPlan.weeks.map((week: any) => {
-      const weekStart = getWeekStart(week.week);
+      const weekStart = getWeekStart(trainingPlan as any, week.week);
       const weekEnd = new Date(weekStart.getTime() + 6 * 86400000);
       const isCurrentWeek = week.week === currentWeek;
       const isPastWeek = todayIso > isoDate(weekEnd);
@@ -175,7 +152,7 @@ const races = (trainingPlan as any).races ?? [];
           <!-- Sessions grid -->
           <div class="grid grid-cols-7 divide-x divide-zinc-800/60">
             {week.sessions.map((session: any) => {
-              const sessionDate = getSessionDate(week.week, session.day);
+              const sessionDate = getSessionDate(trainingPlan as any, week.week, session.day);
               const sessionIso = isoDate(sessionDate);
               const isToday = sessionIso === todayIso;
               const isPast = sessionIso < todayIso;

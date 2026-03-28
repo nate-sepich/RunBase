@@ -36,7 +36,34 @@
           "average_speed_meters_per_second": 3.77,
           "average_heartrate": 159
         }
-      ]
+      ],
+      "post_run": {
+        "matched_plan": {
+          "week": 1,
+          "theme": "Base",
+          "date": "2026-03-26",
+          "session": {
+            "day": "Thursday",
+            "type": "workout",
+            "distance_miles": null,
+            "pace_target": "7:35/mi per repeat",
+            "hr_zone": "Z4\u2013Z5",
+            "hr_bpm_range": "160\u2013180",
+            "notes": "Mile repeats x3 \u2014 full recovery jog between each"
+          }
+        },
+        "adherence": {
+          "status": "matched",
+          "summary": "Plan called for workout and this landed pretty close to target.",
+          "actual_distance_miles": 2.02,
+          "actual_pace_per_mile": "6:59"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5176531716",
+          "prompt_text": "Nice one, Gabe. New run logged: 2.02 mi at 6:59/mi.\n\nPlan check: today called for workout \u00b7 7:35/mi per repeat. Plan called for workout and this landed pretty close to target.\n\nHow'd it feel out there? Any context you want saved with the run \u2014 tired legs, wind, got sick, felt great, whatever?"
+        }
+      }
     },
     {
       "id": "17825768788",

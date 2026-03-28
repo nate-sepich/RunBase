@@ -247,7 +247,11 @@ async function main() {
 
       const idx = updatedActivities.findIndex(a => a.id === mapped.id);
       if (idx >= 0) {
-        updatedActivities[idx] = mapped;
+        const existing = updatedActivities[idx];
+        updatedActivities[idx] = {
+          ...mapped,
+          post_run: existing.post_run,
+        };
         console.log(`  -> Updated (${mapped.type})`);
       } else {
         updatedActivities.push(mapped);

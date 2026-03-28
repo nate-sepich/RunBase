@@ -31,6 +31,11 @@ const elevation = metersToFeet(activity.total_elevation_gain_meters);
 const date = formatDate(activity.date);
 const color = typeColor(activity.type);
 const label = typeLabel(activity.type);
+const postRunStatusColor = {
+  matched: 'text-emerald-400 bg-emerald-400/10',
+  modified: 'text-amber-400 bg-amber-400/10',
+  off_plan: 'text-zinc-300 bg-zinc-300/10',
+} as const;
 ---
 
 <article class="border border-zinc-800 rounded-lg p-5 hover:border-zinc-700 transition-colors">
@@ -84,6 +89,27 @@ const label = typeLabel(activity.type);
       )}
       {activity.max_heartrate && (
         <span>Max HR: <span class="text-zinc-300">{activity.max_heartrate} bpm</span></span>
+      )}
+    </div>
+  )}
+
+  {activity.post_run?.adherence && (
+    <div class="mt-3 pt-3 border-t border-zinc-800/60 space-y-2">
+      <div class="flex items-center gap-2 flex-wrap">
+        <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${postRunStatusColor[activity.post_run.adherence.status]}`}>
+          {activity.post_run.adherence.status === 'matched' ? 'Plan matched' : activity.post_run.adherence.status === 'modified' ? 'Plan modified' : 'Off plan'}
+        </span>
+        {activity.post_run.matched_plan?.session?.type && (
+          <span class="text-xs text-zinc-500">
+            Planned: <span class="text-zinc-300">{activity.post_run.matched_plan.session.type.replace('_', ' ')}</span>
+          </span>
+        )}
+      </div>
+      <p class="text-xs text-zinc-400 leading-relaxed">{activity.post_run.adherence.summary}</p>
+      {activity.post_run.reflection?.reply_text && (
+        <div class="text-xs text-zinc-500">
+          Reflection: <span class="text-zinc-300">{activity.post_run.reflection.reply_text}</span>
+        </div>
       )}
     </div>
   )}

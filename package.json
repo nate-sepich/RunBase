@@ -9,10 +9,17 @@
     "preview": "astro preview",
     "ingest": "node scripts/ingest.js",
     "oauth": "node scripts/oauth-setup.js",
-    "backfill": "node scripts/backfill.js"
+    "backfill": "node scripts/backfill.js",
+    "daily-brief": "node scripts/daily-brief.js --dry-run",
+    "post-run-brief": "node scripts/post-run-brief.js --dry-run",
+    "sam:build": "sam build --template-file infra/template.yaml",
+    "sam:deploy:dev": "sam deploy --template-file infra/template.yaml --config-env dev",
+    "sam:deploy:prod": "sam deploy --template-file infra/template.yaml --config-env prod"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
+    "@aws-sdk/client-dynamodb": "^3.1019.0",
+    "@aws-sdk/lib-dynamodb": "^3.1019.0",
     "astro": "^4.16.0",
     "tailwindcss": "^3.4.0"
   }
