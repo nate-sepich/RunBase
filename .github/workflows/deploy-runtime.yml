@@ -1,0 +1,177 @@
+name: Deploy RunBase AWS Runtime
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        default: dev
+        type: choice
+        options:
+          - dev
+          - prod
+      source_ref:
+        description: Git ref to deploy from
+        required: true
+        default: main
+        type: string
+      enable_daily_brief_schedule:
+        description: Enable daily brief schedule after deploy
+        required: true
+        default: false
+        type: boolean
+      enable_post_run_scan_schedule:
+        description: Enable post-run scan schedule after deploy
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: runbase-runtime-${{ inputs.environment }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy runtime (${{ inputs.environment }})
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+
+    env:
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      RUNBASE_GITHUB_WRITE_TOKEN: ${{ secrets.RUNBASE_GITHUB_WRITE_TOKEN }}
+      AWS_ROLE_TO_ASSUME: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Setup SAM CLI
+        uses: aws-actions/setup-sam@v2
+
+      - name: Validate deploy inputs
+        run: |
+          set -euo pipefail
+          missing=0
+          for key in AWS_REGION TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID RUNBASE_GITHUB_WRITE_TOKEN; do
+            if [ -z "${!key:-}" ]; then
+              echo "Missing required environment secret: $key"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            exit 1
+          fi
+
+      - name: Configure AWS credentials via role
+        if: ${{ secrets.AWS_ROLE_TO_ASSUME != '' }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+
+      - name: Configure AWS credentials via access keys
+        if: ${{ secrets.AWS_ROLE_TO_ASSUME == '' && secrets.AWS_ACCESS_KEY_ID != '' && secrets.AWS_SECRET_ACCESS_KEY != '' }}
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
+
+      - name: Fail if no AWS auth method is configured
+        if: ${{ secrets.AWS_ROLE_TO_ASSUME == '' && (secrets.AWS_ACCESS_KEY_ID == '' || secrets.AWS_SECRET_ACCESS_KEY == '') }}
+        run: |
+          echo "Configure either AWS_ROLE_TO_ASSUME or AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY in the selected GitHub Environment."
+          exit 1
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build SAM app
+        run: sam build --template-file infra/template.yaml
+
+      - name: Deploy runtime
+        env:
+          TARGET_ENV: ${{ inputs.environment }}
+          ENABLE_DAILY_BRIEF_SCHEDULE: ${{ inputs.enable_daily_brief_schedule }}
+          ENABLE_POST_RUN_SCAN_SCHEDULE: ${{ inputs.enable_post_run_scan_schedule }}
+        run: |
+          set -euo pipefail
+          sam deploy \
+            --template-file .aws-sam/build/template.yaml \
+            --stack-name "runbase-messaging-${TARGET_ENV}" \
+            --region "$AWS_REGION" \
+            --capabilities CAPABILITY_IAM \
+            --resolve-s3 \
+            --no-confirm-changeset \
+            --no-fail-on-empty-changeset \
+            --parameter-overrides \
+              Stage="$TARGET_ENV" \
+              EnableDailyBriefSchedule="$ENABLE_DAILY_BRIEF_SCHEDULE" \
+              EnablePostRunScanSchedule="$ENABLE_POST_RUN_SCAN_SCHEDULE" \
+              TelegramBotToken="$TELEGRAM_BOT_TOKEN" \
+              TelegramChatId="$TELEGRAM_CHAT_ID" \
+              RunBaseGithubWriteToken="$RUNBASE_GITHUB_WRITE_TOKEN" \
+              RunBaseGithubRepository="$GITHUB_REPOSITORY" \
+              RunBaseGithubBranch="main" \
+              RunBaseGithubRunsPath="data/runs.json"
+
+      - name: Show stack outputs
+        env:
+          TARGET_ENV: ${{ inputs.environment }}
+        run: |
+          aws cloudformation describe-stacks \
+            --stack-name "runbase-messaging-${TARGET_ENV}" \
+            --region "$AWS_REGION" \
+            --query 'Stacks[0].Outputs' \
+            --output table
+
+      - name: Verify EventBridge rule state matches requested schedules
+        env:
+          TARGET_ENV: ${{ inputs.environment }}
+          ENABLE_DAILY_BRIEF_SCHEDULE: ${{ inputs.enable_daily_brief_schedule }}
+          ENABLE_POST_RUN_SCAN_SCHEDULE: ${{ inputs.enable_post_run_scan_schedule }}
+        run: |
+          set -euo pipefail
+
+          expected_daily="DISABLED"
+          expected_post="DISABLED"
+          if [ "$ENABLE_DAILY_BRIEF_SCHEDULE" = "true" ]; then expected_daily="ENABLED"; fi
+          if [ "$ENABLE_POST_RUN_SCAN_SCHEDULE" = "true" ]; then expected_post="ENABLED"; fi
+
+          actual_daily=$(aws events describe-rule \
+            --name "RunBaseDailyBrief-${TARGET_ENV}" \
+            --region "$AWS_REGION" \
+            --query 'State' --output text)
+          actual_post=$(aws events describe-rule \
+            --name "RunBasePostRunScan-${TARGET_ENV}" \
+            --region "$AWS_REGION" \
+            --query 'State' --output text)
+
+          echo "Expected daily brief rule: $expected_daily"
+          echo "Actual daily brief rule:   $actual_daily"
+          echo "Expected post-run rule:    $expected_post"
+          echo "Actual post-run rule:      $actual_post"
+
+          if [ "$actual_daily" != "$expected_daily" ] || [ "$actual_post" != "$expected_post" ]; then
+            echo "EventBridge rule state mismatch after deploy."
+            exit 1
+          fi

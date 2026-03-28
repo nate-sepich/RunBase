@@ -18,6 +18,30 @@ For deploys, provide these as environment variables locally or in CI:
 
 Then deploy with SAM parameter overrides.
 
+## GitHub Actions CD
+A manual deployment workflow now exists at:
+- `.github/workflows/deploy-runtime.yml`
+
+Recommended use:
+- **dev**: safe to use for routine environment deploys
+- **prod**: use via GitHub Environment approval / manual dispatch, not auto-on-push
+
+Expected GitHub Environment secrets:
+- `AWS_REGION`
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+- `RUNBASE_GITHUB_WRITE_TOKEN`
+- either:
+  - `AWS_ROLE_TO_ASSUME` (preferred), or
+  - `AWS_ACCESS_KEY_ID` + `AWS_SECRET_ACCESS_KEY` (+ optional `AWS_SESSION_TOKEN`)
+
+Current state:
+- GitHub OIDC provider is configured in AWS for this account
+- deploy role exists: `GitHubActionsRunBaseDeployRole`
+- `AWS_ROLE_TO_ASSUME` is populated in the RunBase `dev` and `prod` GitHub Environments
+
+The workflow also verifies actual EventBridge rule state after deploy so schedule drift is caught immediately.
+
 ## Example deploy
 
 ### Dev

@@ -93,6 +93,21 @@ Best-practice cleanup still recommended:
 - update both GitHub environments (`dev`, `prod`)
 - redeploy after rotation if desired
 
+## GitHub-driven deploys
+
+A manual GitHub Actions deploy workflow exists at:
+- `.github/workflows/deploy-runtime.yml`
+
+Recommended posture:
+- use it for **dev** routinely
+- use it for **prod** only with environment approval / explicit manual dispatch
+- do not auto-deploy prod runtime changes on every push while messaging behavior is still being tuned
+
+Current auth posture:
+- GitHub OIDC provider exists in AWS for `token.actions.githubusercontent.com`
+- deploy role exists: `GitHubActionsRunBaseDeployRole`
+- `AWS_ROLE_TO_ASSUME` is already set in the RunBase `dev` and `prod` GitHub Environments
+
 ## Handy commands
 
 ### Check prod rules
