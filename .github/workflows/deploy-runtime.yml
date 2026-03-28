@@ -144,6 +144,26 @@ jobs:
             --query 'Stacks[0].Outputs' \
             --output table
 
+      - name: Reconcile EventBridge rule state to requested schedules
+        env:
+          TARGET_ENV: ${{ inputs.environment }}
+          ENABLE_DAILY_BRIEF_SCHEDULE: ${{ inputs.enable_daily_brief_schedule }}
+          ENABLE_POST_RUN_SCAN_SCHEDULE: ${{ inputs.enable_post_run_scan_schedule }}
+        run: |
+          set -euo pipefail
+
+          if [ "$ENABLE_DAILY_BRIEF_SCHEDULE" = "true" ]; then
+            aws events enable-rule --name "RunBaseDailyBrief-${TARGET_ENV}" --region "$AWS_REGION"
+          else
+            aws events disable-rule --name "RunBaseDailyBrief-${TARGET_ENV}" --region "$AWS_REGION"
+          fi
+
+          if [ "$ENABLE_POST_RUN_SCAN_SCHEDULE" = "true" ]; then
+            aws events enable-rule --name "RunBasePostRunScan-${TARGET_ENV}" --region "$AWS_REGION"
+          else
+            aws events disable-rule --name "RunBasePostRunScan-${TARGET_ENV}" --region "$AWS_REGION"
+          fi
+
       - name: Verify EventBridge rule state matches requested schedules
         env:
           TARGET_ENV: ${{ inputs.environment }}
@@ -172,6 +192,6 @@ jobs:
           echo "Actual post-run rule:      $actual_post"
 
           if [ "$actual_daily" != "$expected_daily" ] || [ "$actual_post" != "$expected_post" ]; then
-            echo "EventBridge rule state mismatch after deploy."
+            echo "EventBridge rule state mismatch after reconciliation."
             exit 1
           fi
