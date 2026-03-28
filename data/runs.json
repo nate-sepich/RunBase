@@ -276,7 +276,21 @@
           "moving_time_seconds": 69,
           "average_speed_meters_per_second": 3.27
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 1.14 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 1.14,
+          "actual_pace_per_mile": "8:05"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 1.14 mi at 8:05/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 1.14 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-28T23:58:30.790Z"
+        }
+      }
     },
     {
       "id": "17676727719",
