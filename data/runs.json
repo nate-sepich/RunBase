@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T12:12:59.830Z",
+  "last_updated": "2026-03-29T12:13:10.631Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
@@ -47,9 +47,9 @@
             "type": "workout",
             "distance_miles": null,
             "pace_target": "7:35/mi per repeat",
-            "hr_zone": "Z4\u2013Z5",
-            "hr_bpm_range": "160\u2013180",
-            "notes": "Mile repeats x3 \u2014 full recovery jog between each"
+            "hr_zone": "Z4–Z5",
+            "hr_bpm_range": "160–180",
+            "notes": "Mile repeats x3 — full recovery jog between each"
           }
         },
         "adherence": {
@@ -61,7 +61,7 @@
         "reflection": {
           "prompt_channel": "telegram",
           "prompt_target": "-5176531716",
-          "prompt_text": "Nice one, Gabe. New run logged: 2.02 mi at 6:59/mi.\n\nPlan check: today called for workout \u00b7 7:35/mi per repeat. Plan called for workout and this landed pretty close to target.\n\nHow'd it feel out there? Any context you want saved with the run \u2014 tired legs, wind, got sick, felt great, whatever?"
+          "prompt_text": "Nice one, Gabe. New run logged: 2.02 mi at 6:59/mi.\n\nPlan check: today called for workout · 7:35/mi per repeat. Plan called for workout and this landed pretty close to target.\n\nHow'd it feel out there? Any context you want saved with the run — tired legs, wind, got sick, felt great, whatever?"
         }
       }
     },
@@ -202,7 +202,21 @@
           "moving_time_seconds": 4,
           "average_speed_meters_per_second": 0.73
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3,
+          "actual_pace_per_mile": "9:53"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3 mi at 9:53/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-28T23:28:30.136Z"
+        }
+      }
     },
     {
       "id": "17716494693",
@@ -225,7 +239,21 @@
           "moving_time_seconds": 297,
           "average_speed_meters_per_second": 3.03
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 1.56 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 1.56,
+          "actual_pace_per_mile": "9:10"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 1.56 mi at 9:10/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 1.56 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-28T23:43:30.273Z"
+        }
+      }
     },
     {
       "id": "17682661395",
@@ -248,7 +276,21 @@
           "moving_time_seconds": 69,
           "average_speed_meters_per_second": 3.27
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 1.14 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 1.14,
+          "actual_pace_per_mile": "8:05"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 1.14 mi at 8:05/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 1.14 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-28T23:58:30.790Z"
+        }
+      }
     },
     {
       "id": "17676727719",
@@ -359,7 +401,21 @@
           "average_speed_meters_per_second": 1.93,
           "average_heartrate": 169
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 15 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 15,
+          "actual_pace_per_mile": "9:12"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 15 mi at 9:12/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 15 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T00:13:29.976Z"
+        }
+      }
     },
     {
       "id": "17611677578",
@@ -440,7 +496,21 @@
           "average_speed_meters_per_second": 2.35,
           "average_heartrate": 156
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 10.02 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 10.02,
+          "actual_pace_per_mile": "8:03"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 10.02 mi at 8:03/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 10.02 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T00:28:29.974Z"
+        }
+      }
     },
     {
       "id": "17598931528",
@@ -485,7 +555,21 @@
           "average_speed_meters_per_second": 3.16,
           "average_heartrate": 149
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.24 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.24,
+          "actual_pace_per_mile": "8:07"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.24 mi at 8:07/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.24 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T00:43:29.975Z"
+        }
+      }
     },
     {
       "id": "17444767840",
@@ -523,7 +607,21 @@
           "moving_time_seconds": 98,
           "average_speed_meters_per_second": 2.79
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.17 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.17,
+          "actual_pace_per_mile": "9:28"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.17 mi at 9:28/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.17 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T00:58:30.095Z"
+        }
+      }
     },
     {
       "id": "17434509061",
@@ -606,7 +704,21 @@
           "moving_time_seconds": 62,
           "average_speed_meters_per_second": 2.68
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 13.1 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 13.1,
+          "actual_pace_per_mile": "8:43"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 13.1 mi at 8:43/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 13.1 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T01:13:30.114Z"
+        }
+      }
     },
     {
       "id": "17421617180",
@@ -654,7 +766,21 @@
           "moving_time_seconds": 172,
           "average_speed_meters_per_second": 2.55
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.27 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.27,
+          "actual_pace_per_mile": "9:24"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.27 mi at 9:24/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.27 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T01:28:29.957Z"
+        }
+      }
     },
     {
       "id": "15981157712",
@@ -702,7 +828,21 @@
           "moving_time_seconds": 86,
           "average_speed_meters_per_second": 2.77
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.15 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.15,
+          "actual_pace_per_mile": "10:27"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.15 mi at 10:27/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.15 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T01:43:30.169Z"
+        }
+      }
     },
     {
       "id": "15882589823",
@@ -1022,7 +1162,21 @@
           "moving_time_seconds": 306,
           "average_speed_meters_per_second": 2.48
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 60.47 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 60.47,
+          "actual_pace_per_mile": "10:52"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 60.47 mi at 10:52/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 60.47 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T01:58:29.990Z"
+        }
+      }
     },
     {
       "id": "15745904231",
@@ -1050,7 +1204,21 @@
           "moving_time_seconds": 48,
           "average_speed_meters_per_second": 1.5
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 2.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 2.05,
+          "actual_pace_per_mile": "10:21"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 2.05 mi at 10:21/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 2.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T02:13:30.022Z"
+        }
+      }
     },
     {
       "id": "15722488256",
@@ -1143,7 +1311,21 @@
           "moving_time_seconds": 4,
           "average_speed_meters_per_second": 2.13
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 15.01 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 15.01,
+          "actual_pace_per_mile": "7:32"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 15.01 mi at 7:32/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 15.01 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T02:28:29.968Z"
+        }
+      }
     },
     {
       "id": "15711462488",
@@ -1176,7 +1358,21 @@
           "moving_time_seconds": 17,
           "average_speed_meters_per_second": 2.21
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3.02 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3.02,
+          "actual_pace_per_mile": "10:31"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3.02 mi at 10:31/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3.02 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T02:43:30.065Z"
+        }
+      }
     },
     {
       "id": "15689483654",
@@ -1209,7 +1405,21 @@
           "moving_time_seconds": 738,
           "average_speed_meters_per_second": 2.1
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3.97 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3.97,
+          "actual_pace_per_mile": "12:11"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3.97 mi at 12:11/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3.97 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T02:58:30.131Z"
+        }
+      }
     },
     {
       "id": "15677583770",
@@ -1277,7 +1487,21 @@
           "moving_time_seconds": 14,
           "average_speed_meters_per_second": 2.95
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 10.03 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 10.03,
+          "actual_pace_per_mile": "8:40"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 10.03 mi at 8:40/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 10.03 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T03:13:30.176Z"
+        }
+      }
     },
     {
       "id": "15631736676",
@@ -1325,7 +1549,21 @@
           "moving_time_seconds": 33,
           "average_speed_meters_per_second": 1.88
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.04 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.04,
+          "actual_pace_per_mile": "9:58"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.04 mi at 9:58/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.04 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T03:28:30.059Z"
+        }
+      }
     },
     {
       "id": "15621671081",
@@ -1373,7 +1611,21 @@
           "moving_time_seconds": 251,
           "average_speed_meters_per_second": 2.42
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.38 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.38,
+          "actual_pace_per_mile": "10:38"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.38 mi at 10:38/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.38 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T03:43:30.066Z"
+        }
+      }
     },
     {
       "id": "15585460838",
@@ -1421,7 +1673,21 @@
           "moving_time_seconds": 729,
           "average_speed_meters_per_second": 1.65
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.75 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.75,
+          "actual_pace_per_mile": "12:57"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.75 mi at 12:57/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.75 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T03:58:30.051Z"
+        }
+      }
     },
     {
       "id": "15564113290",
@@ -1504,7 +1770,21 @@
           "moving_time_seconds": 73,
           "average_speed_meters_per_second": 2.86
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 13.13 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 13.13,
+          "actual_pace_per_mile": "8:49"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 13.13 mi at 8:49/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 13.13 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T04:13:29.951Z"
+        }
+      }
     },
     {
       "id": "15192232573",
@@ -1552,7 +1832,21 @@
           "moving_time_seconds": 613,
           "average_speed_meters_per_second": 2.33
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.89 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.89,
+          "actual_pace_per_mile": "11:02"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.89 mi at 11:02/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.89 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T04:28:30.085Z"
+        }
+      }
     },
     {
       "id": "15170264641",
@@ -1630,7 +1924,21 @@
           "moving_time_seconds": 514,
           "average_speed_meters_per_second": 2.62
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 12.84 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 12.84,
+          "actual_pace_per_mile": "10:42"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 12.84 mi at 10:42/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 12.84 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T04:43:30.082Z"
+        }
+      }
     },
     {
       "id": "15159661178",
@@ -1673,7 +1981,21 @@
           "moving_time_seconds": 131,
           "average_speed_meters_per_second": 2.51
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 5.2 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 5.2,
+          "actual_pace_per_mile": "10:46"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 5.2 mi at 10:46/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 5.2 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T04:58:30.032Z"
+        }
+      }
     },
     {
       "id": "15128120989",
@@ -1721,7 +2043,21 @@
           "moving_time_seconds": 88,
           "average_speed_meters_per_second": 2.31
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.13 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.13,
+          "actual_pace_per_mile": "10:58"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.13 mi at 10:58/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.13 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T05:13:29.840Z"
+        }
+      }
     },
     {
       "id": "15116672803",
@@ -1784,7 +2120,21 @@
           "moving_time_seconds": 145,
           "average_speed_meters_per_second": 2.38
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 9.22 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 9.22,
+          "actual_pace_per_mile": "10:46"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 9.22 mi at 10:46/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 9.22 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T05:28:30.064Z"
+        }
+      }
     },
     {
       "id": "14907362445",
@@ -1934,7 +2284,21 @@
           "moving_time_seconds": 122,
           "average_speed_meters_per_second": 2.9
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 26.22 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 26.22,
+          "actual_pace_per_mile": "10:52"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 26.22 mi at 10:52/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 26.22 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T05:43:29.927Z"
+        }
+      }
     },
     {
       "id": "14895561961",
@@ -1972,7 +2336,21 @@
           "moving_time_seconds": 143,
           "average_speed_meters_per_second": 3.1
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.28 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.28,
+          "actual_pace_per_mile": "8:27"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.28 mi at 8:27/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.28 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T05:58:30.312Z"
+        }
+      }
     },
     {
       "id": "14864418709",
@@ -2010,7 +2388,21 @@
           "moving_time_seconds": 127,
           "average_speed_meters_per_second": 2.73
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.22 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.22,
+          "actual_pace_per_mile": "9:58"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.22 mi at 9:58/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.22 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T06:13:29.968Z"
+        }
+      }
     },
     {
       "id": "14855035671",
@@ -2048,7 +2440,21 @@
           "moving_time_seconds": 125,
           "average_speed_meters_per_second": 2.61
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.2 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.2,
+          "actual_pace_per_mile": "10:06"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.2 mi at 10:06/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.2 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T06:28:29.693Z"
+        }
+      }
     },
     {
       "id": "14832981121",
@@ -2116,7 +2522,21 @@
           "moving_time_seconds": 30,
           "average_speed_meters_per_second": 2.56
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 10.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 10.05,
+          "actual_pace_per_mile": "9:30"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 10.05 mi at 9:30/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 10.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T06:43:30.102Z"
+        }
+      }
     },
     {
       "id": "14822571073",
@@ -2164,7 +2584,21 @@
           "moving_time_seconds": 171,
           "average_speed_meters_per_second": 2.7
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.29 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.29,
+          "actual_pace_per_mile": "9:41"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.29 mi at 9:41/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.29 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T06:58:29.996Z"
+        }
+      }
     },
     {
       "id": "14677789196",
@@ -2197,7 +2631,21 @@
           "moving_time_seconds": 281,
           "average_speed_meters_per_second": 2.78
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3.49 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3.49,
+          "actual_pace_per_mile": "9:22"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3.49 mi at 9:22/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3.49 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T07:13:30.034Z"
+        }
+      }
     },
     {
       "id": "14653459701",
@@ -2282,7 +2730,21 @@
           "moving_time_seconds": 73,
           "average_speed_meters_per_second": 4.86
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 13.22 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 13.22,
+          "actual_pace_per_mile": "7:14"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 13.22 mi at 7:14/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 13.22 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T07:28:29.978Z"
+        }
+      }
     },
     {
       "id": "14645751449",
@@ -2310,7 +2772,21 @@
           "moving_time_seconds": 85,
           "average_speed_meters_per_second": 2.17
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 2.12 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 2.12,
+          "actual_pace_per_mile": "10:23"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 2.12 mi at 10:23/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 2.12 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T07:43:29.973Z"
+        }
+      }
     },
     {
       "id": "14605675132",
@@ -2375,7 +2851,21 @@
           "moving_time_seconds": 103,
           "average_speed_meters_per_second": 2.97
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 9.19 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 9.19,
+          "actual_pace_per_mile": "8:14"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 9.19 mi at 8:14/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 9.19 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T07:58:30.152Z"
+        }
+      }
     },
     {
       "id": "14565560214",
@@ -2413,7 +2903,21 @@
           "moving_time_seconds": 10,
           "average_speed_meters_per_second": 2.61
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.02 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.02,
+          "actual_pace_per_mile": "9:44"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.02 mi at 9:44/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.02 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T08:13:30.096Z"
+        }
+      }
     },
     {
       "id": "14555900600",
@@ -2473,7 +2977,21 @@
           "moving_time_seconds": 250,
           "average_speed_meters_per_second": 3.49
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 8.54 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 8.54,
+          "actual_pace_per_mile": "8:07"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 8.54 mi at 8:07/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 8.54 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T08:28:30.267Z"
+        }
+      }
     },
     {
       "id": "14429850235",
@@ -2501,7 +3019,21 @@
           "moving_time_seconds": 9,
           "average_speed_meters_per_second": 3.03
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 2.02 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 2.02,
+          "actual_pace_per_mile": "7:50"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 2.02 mi at 7:50/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 2.02 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T08:43:29.993Z"
+        }
+      }
     },
     {
       "id": "14420925055",
@@ -2549,7 +3081,21 @@
           "moving_time_seconds": 19,
           "average_speed_meters_per_second": 2.63
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.03 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.03,
+          "actual_pace_per_mile": "8:46"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.03 mi at 8:46/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.03 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T08:58:30.004Z"
+        }
+      }
     },
     {
       "id": "14410829232",
@@ -2607,7 +3153,21 @@
           "moving_time_seconds": 52,
           "average_speed_meters_per_second": 2.36
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 8.08 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 8.08,
+          "actual_pace_per_mile": "9:18"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 8.08 mi at 9:18/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 8.08 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T09:13:29.926Z"
+        }
+      }
     },
     {
       "id": "14257803658",
@@ -2650,7 +3210,21 @@
           "moving_time_seconds": 53,
           "average_speed_meters_per_second": 2.95
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 5.1 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 5.1,
+          "actual_pace_per_mile": "9:19"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 5.1 mi at 9:19/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 5.1 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T09:28:29.985Z"
+        }
+      }
     },
     {
       "id": "14246864628",
@@ -2688,7 +3262,21 @@
           "moving_time_seconds": 22,
           "average_speed_meters_per_second": 3.48
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.05,
+          "actual_pace_per_mile": "7:20"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.05 mi at 7:20/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T09:43:29.859Z"
+        }
+      }
     },
     {
       "id": "14227254384",
@@ -2771,7 +3359,21 @@
           "moving_time_seconds": 97,
           "average_speed_meters_per_second": 3.09
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 13.19 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 13.19,
+          "actual_pace_per_mile": "9:15"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 13.19 mi at 9:15/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 13.19 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T09:58:29.876Z"
+        }
+      }
     },
     {
       "id": "14206928000",
@@ -2819,7 +3421,21 @@
           "moving_time_seconds": 28,
           "average_speed_meters_per_second": 2.96
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.05,
+          "actual_pace_per_mile": "8:52"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.05 mi at 8:52/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T10:13:30.290Z"
+        }
+      }
     },
     {
       "id": "14179064999",
@@ -2842,7 +3458,21 @@
           "moving_time_seconds": 8,
           "average_speed_meters_per_second": 2.76
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 1.01 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 1.01,
+          "actual_pace_per_mile": "8:10"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 1.01 mi at 8:10/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 1.01 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T10:28:29.994Z"
+        }
+      }
     },
     {
       "id": "14149815284",
@@ -2875,7 +3505,21 @@
           "moving_time_seconds": 545,
           "average_speed_meters_per_second": 2.94
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4,
+          "actual_pace_per_mile": "8:40"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4 mi at 8:40/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T10:43:29.895Z"
+        }
+      }
     },
     {
       "id": "14141725711",
@@ -2928,7 +3572,21 @@
           "moving_time_seconds": 246,
           "average_speed_meters_per_second": 2.97
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 7.45 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 7.45,
+          "actual_pace_per_mile": "8:57"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 7.45 mi at 8:57/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 7.45 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T10:58:29.863Z"
+        }
+      }
     },
     {
       "id": "14122152958",
@@ -2971,7 +3629,21 @@
           "moving_time_seconds": 24,
           "average_speed_meters_per_second": 3.31
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 5.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 5.05,
+          "actual_pace_per_mile": "7:39"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 5.05 mi at 7:39/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 5.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T11:13:30.082Z"
+        }
+      }
     },
     {
       "id": "14073125875",
@@ -3001,7 +3673,21 @@
           "moving_time_seconds": 38,
           "average_speed_meters_per_second": 4.18
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 2.1 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 2.1,
+          "actual_pace_per_mile": "7:03"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 2.1 mi at 7:03/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 2.1 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T11:28:30.080Z"
+        }
+      }
     },
     {
       "id": "14063160469",
@@ -3039,7 +3725,21 @@
           "moving_time_seconds": 25,
           "average_speed_meters_per_second": 3.28
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.05 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.05,
+          "actual_pace_per_mile": "7:40"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.05 mi at 7:40/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.05 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T11:43:30.184Z"
+        }
+      }
     },
     {
       "id": "14014708203",
@@ -3067,7 +3767,21 @@
           "moving_time_seconds": 407,
           "average_speed_meters_per_second": 2.6
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 2.66 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 2.66,
+          "actual_pace_per_mile": "8:22"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 2.66 mi at 8:22/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 2.66 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T11:58:30.221Z"
+        }
+      }
     },
     {
       "id": "11548911879",
@@ -3162,7 +3876,21 @@
           "average_speed_meters_per_second": 3.95,
           "average_heartrate": 184
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 13 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 13,
+          "actual_pace_per_mile": "7:40"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 13 mi at 7:40/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 13 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T12:13:30.257Z"
+        }
+      }
     },
     {
       "id": "11543729775",
@@ -3201,7 +3929,21 @@
           "average_speed_meters_per_second": 2.78,
           "average_heartrate": 142
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3.19 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3.19,
+          "actual_pace_per_mile": "9:48"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3.19 mi at 9:48/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3.19 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T12:28:29.983Z"
+        }
+      }
     },
     {
       "id": "11529020181",
@@ -3246,7 +3988,21 @@
           "average_speed_meters_per_second": 3.24,
           "average_heartrate": 160
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 4.91 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 4.91,
+          "actual_pace_per_mile": "8:10"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 4.91 mi at 8:10/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 4.91 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T12:43:30.158Z"
+        }
+      }
     },
     {
       "id": "11497708403",
@@ -3289,7 +4045,21 @@
           "moving_time_seconds": 21,
           "average_speed_meters_per_second": 3.28
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 5.04 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 5.04,
+          "actual_pace_per_mile": "8:07"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 5.04 mi at 8:07/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 5.04 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T12:58:30.106Z"
+        }
+      }
     },
     {
       "id": "11489289694",
@@ -3324,7 +4094,21 @@
           "moving_time_seconds": 39,
           "average_speed_meters_per_second": 4.26
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 3.11 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 3.11,
+          "actual_pace_per_mile": "6:41"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 3.11 mi at 6:41/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 3.11 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T13:13:30.144Z"
+        }
+      }
     },
     {
       "id": "11483051908",
@@ -3392,7 +4176,21 @@
           "moving_time_seconds": 90,
           "average_speed_meters_per_second": 3.57
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 10.2 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 10.2,
+          "actual_pace_per_mile": "7:53"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 10.2 mi at 7:53/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 10.2 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T13:28:30.098Z"
+        }
+      }
     },
     {
       "id": "11459364691",
@@ -3435,7 +4233,21 @@
           "moving_time_seconds": 44,
           "average_speed_meters_per_second": 2.86
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 5.08 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 5.08,
+          "actual_pace_per_mile": "8:20"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 5.08 mi at 8:20/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 5.08 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T13:43:29.796Z"
+        }
+      }
     },
     {
       "id": "11442646291",
@@ -3483,7 +4295,21 @@
           "moving_time_seconds": 7,
           "average_speed_meters_per_second": 2
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.01 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.01,
+          "actual_pace_per_mile": "9:28"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.01 mi at 9:28/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.01 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T13:58:30.151Z"
+        }
+      }
     },
     {
       "id": "11434898317",
@@ -3541,7 +4367,21 @@
           "moving_time_seconds": 31,
           "average_speed_meters_per_second": 2.8
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 8.06 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 8.06,
+          "actual_pace_per_mile": "8:16"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 8.06 mi at 8:16/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 8.06 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T14:13:29.867Z"
+        }
+      }
     },
     {
       "id": "11420406342",
@@ -3589,7 +4429,21 @@
           "moving_time_seconds": 35,
           "average_speed_meters_per_second": 3.56
         }
-      ]
+      ],
+      "post_run": {
+        "adherence": {
+          "status": "off_plan",
+          "summary": "Unplanned 6.08 mile workout. Still counts — worth logging how it felt.",
+          "actual_distance_miles": 6.08,
+          "actual_pace_per_mile": "8:04"
+        },
+        "reflection": {
+          "prompt_channel": "telegram",
+          "prompt_target": "-5210721420",
+          "prompt_text": "Nice work, Gabe. I saw a new run come through: 6.08 mi at 8:04/mi.\n\nThis one didn't map cleanly to the current plan, which is totally fine. Unplanned 6.08 mile workout. Still counts — worth logging how it felt.\n\nHow'd it feel? Anything worth noting — legs, wind, energy, sickness, or anything else?",
+          "prompt_sent_at": "2026-03-29T14:28:30.067Z"
+        }
+      }
     },
     {
       "id": "11325926848",
