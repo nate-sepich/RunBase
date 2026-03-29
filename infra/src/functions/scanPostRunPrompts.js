@@ -4,16 +4,65 @@ import { fetchRepoJson } from '../shared/runbaseRepoData.js';
 import { getPromptStateByRun, markPromptSent, markPromptSyncStatus } from '../shared/messagingState.js';
 import { syncPromptToRunsJson } from '../shared/repoSync.js';
 
+const DEFAULT_RECENT_ACTIVITY_WINDOW_HOURS = 36;
+
 function requireEnv(name) {
   const value = process.env[name];
   if (!value) throw new Error(`Missing ${name}`);
   return value;
 }
 
+function parseRecentActivityWindowHours() {
+  const raw = process.env.POST_RUN_RECENT_WINDOW_HOURS;
+  if (!raw) return DEFAULT_RECENT_ACTIVITY_WINDOW_HOURS;
+
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    throw new Error(`Invalid POST_RUN_RECENT_WINDOW_HOURS: ${raw}`);
+  }
+
+  return parsed;
+}
+
+function getActivityTimestamp(activity) {
+  const candidates = [
+    activity?.start_date,
+    activity?.start_date_local,
+    activity?.date,
+    activity?.post_run?.reflection?.prompt_sent_at,
+  ];
+
+  for (const value of candidates) {
+    if (!value) continue;
+    const parsed = new Date(value);
+    if (!Number.isNaN(parsed.getTime())) {
+      return parsed;
+    }
+  }
+
+  return null;
+}
+
+function isRecentEligibleActivity(activity, now, recentWindowHours) {
+  const activityTimestamp = getActivityTimestamp(activity);
+  if (!activityTimestamp) {
+    return false;
+  }
+
+  const ageMs = now.getTime() - activityTimestamp.getTime();
+  if (ageMs < 0) {
+    return false;
+  }
+
+  return ageMs <= recentWindowHours * 60 * 60 * 1000;
+}
+
 export const handler = async () => {
   const stage = process.env.STAGE || 'dev';
   const chatId = requireEnv('TELEGRAM_CHAT_ID');
   const botToken = requireEnv('TELEGRAM_BOT_TOKEN');
+  const recentWindowHours = parseRecentActivityWindowHours();
+  const now = new Date();
 
   const [trainingPlan, runStore] = await Promise.all([
     fetchRepoJson('training-plan.json'),
@@ -24,6 +73,10 @@ export const handler = async () => {
 
   for (const activity of activities) {
     if (activity.post_run?.reflection?.prompt_sent_at) {
+      continue;
+    }
+
+    if (!isRecentEligibleActivity(activity, now, recentWindowHours)) {
       continue;
     }
 
@@ -42,7 +95,7 @@ export const handler = async () => {
       text: prompt,
     });
 
-    const promptSentAt = new Date().toISOString();
+    const promptSentAt = now.toISOString();
 
     await markPromptSent({
       activityId: activity.id,
@@ -84,6 +137,7 @@ export const handler = async () => {
       telegramMessageId: telegramResult.message_id,
       status: adherence.status,
       promptSyncStatus,
+      recentWindowHours,
     };
   }
 
@@ -91,6 +145,7 @@ export const handler = async () => {
     ok: true,
     stage,
     skipped: true,
-    reason: 'no eligible activity found',
+    reason: 'no eligible recent activity found',
+    recentWindowHours,
   };
 };

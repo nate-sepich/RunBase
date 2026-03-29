@@ -111,17 +111,8 @@ Resources:
 
   ScanPostRunPromptsFunction:
     Type: AWS::Serverless::Function
-    Metadata:
-      BuildMethod: esbuild
-      BuildProperties:
-        EntryPoints:
-          - infra/src/functions/scanPostRunPrompts.js
-        Format: cjs
-        Target: es2020
-        Minify: true
-        Sourcemap: false
     Properties:
-      CodeUri: ..
+      CodeUri: ../infra/src/functions
       Handler: scanPostRunPrompts.handler
       Policies:
         - DynamoDBCrudPolicy:
