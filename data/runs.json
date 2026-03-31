@@ -1,10 +1,79 @@
 {
-  "last_updated": "2026-03-30T12:22:22.602Z",
+  "last_updated": "2026-03-31T00:31:34.224Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "17919027050",
+      "date": "2026-03-30T22:45:23Z",
+      "type": "workout",
+      "name": "Afternoon Run",
+      "distance_meters": 13782.1,
+      "moving_time_seconds": 4833,
+      "total_elevation_gain_meters": 84.7,
+      "average_speed_meters_per_second": 2.852,
+      "is_pr": false,
+      "max_heartrate": 190,
+      "average_heartrate": 176,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 482,
+          "average_speed_meters_per_second": 3.34,
+          "average_heartrate": 159
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.43,
+          "average_heartrate": 177
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 557,
+          "average_speed_meters_per_second": 2.89,
+          "average_heartrate": 176
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 659,
+          "average_speed_meters_per_second": 2.44,
+          "average_heartrate": 176
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 538,
+          "average_speed_meters_per_second": 2.99,
+          "average_heartrate": 181
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 594,
+          "average_speed_meters_per_second": 2.71,
+          "average_heartrate": 177
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 594,
+          "average_speed_meters_per_second": 2.71,
+          "average_heartrate": 177
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 575,
+          "average_speed_meters_per_second": 2.8,
+          "average_heartrate": 182
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 364,
+          "average_speed_meters_per_second": 2.49,
+          "average_heartrate": 181
+        }
+      ]
+    },
     {
       "id": "17863703118",
       "date": "2026-03-26T10:44:45Z",
