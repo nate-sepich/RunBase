@@ -1,10 +1,93 @@
 {
-  "last_updated": "2026-04-18T12:14:42.846Z",
+  "last_updated": "2026-04-19T00:36:32.671Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18159050066",
+      "date": "2026-04-18T12:30:10Z",
+      "type": "race",
+      "name": "Drake Road Races",
+      "distance_meters": 21427.8,
+      "moving_time_seconds": 6000,
+      "total_elevation_gain_meters": 130.1,
+      "average_speed_meters_per_second": 3.571,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 416,
+          "average_speed_meters_per_second": 3.87
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 425,
+          "average_speed_meters_per_second": 3.79
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 419,
+          "average_speed_meters_per_second": 3.84
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 402,
+          "average_speed_meters_per_second": 4.01
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 449,
+          "average_speed_meters_per_second": 3.58
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 464,
+          "average_speed_meters_per_second": 3.47
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 441,
+          "average_speed_meters_per_second": 3.65
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 451,
+          "average_speed_meters_per_second": 3.57
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 443,
+          "average_speed_meters_per_second": 3.63
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 501,
+          "average_speed_meters_per_second": 3.21
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 490,
+          "average_speed_meters_per_second": 3.28
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 498,
+          "average_speed_meters_per_second": 3.23
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 479,
+          "average_speed_meters_per_second": 3.36
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 122,
+          "average_speed_meters_per_second": 4.14
+        }
+      ]
+    },
     {
       "id": "18032132749",
       "date": "2026-04-08T19:16:06Z",
