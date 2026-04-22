@@ -1,10 +1,73 @@
 {
-  "last_updated": "2026-04-21T12:26:23.176Z",
+  "last_updated": "2026-04-22T00:34:00.893Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18201208743",
+      "date": "2026-04-21T16:25:37Z",
+      "type": "workout",
+      "name": "Lunch Run",
+      "distance_meters": 14935.6,
+      "moving_time_seconds": 4660,
+      "total_elevation_gain_meters": 67.7,
+      "average_speed_meters_per_second": 3.205,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 520,
+          "average_speed_meters_per_second": 3.1
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.2
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 524,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 543,
+          "average_speed_meters_per_second": 2.97
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 465,
+          "average_speed_meters_per_second": 3.46
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 486,
+          "average_speed_meters_per_second": 3.31
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 497,
+          "average_speed_meters_per_second": 3.24
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.26
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 142,
+          "average_speed_meters_per_second": 3.16
+        }
+      ]
+    },
     {
       "id": "18159050066",
       "date": "2026-04-18T12:30:10Z",
