@@ -1,10 +1,156 @@
 {
-  "last_updated": "2026-05-11T13:03:40.041Z",
+  "last_updated": "2026-05-12T00:41:17.479Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18466727753",
+      "date": "2026-05-11T16:09:47Z",
+      "type": "workout",
+      "name": "Lunch Run",
+      "distance_meters": 18755.1,
+      "moving_time_seconds": 5347,
+      "total_elevation_gain_meters": 81.4,
+      "average_speed_meters_per_second": 3.508,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.2
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 503,
+          "average_speed_meters_per_second": 3.2
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 470,
+          "average_speed_meters_per_second": 3.42
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.63
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 443,
+          "average_speed_meters_per_second": 3.63
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.62
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 469,
+          "average_speed_meters_per_second": 3.43
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 462,
+          "average_speed_meters_per_second": 3.49
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 389,
+          "average_speed_meters_per_second": 4.14
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 418,
+          "average_speed_meters_per_second": 3.84
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 483,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 319,
+          "average_speed_meters_per_second": 3.29
+        }
+      ]
+    },
+    {
+      "id": "18466631339",
+      "date": "2026-05-11T16:09:44Z",
+      "type": "workout",
+      "name": "Free Run",
+      "distance_meters": 17958.4,
+      "moving_time_seconds": 5173,
+      "total_elevation_gain_meters": 75.9,
+      "average_speed_meters_per_second": 3.472,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 514,
+          "average_speed_meters_per_second": 3.16
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.16
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 483,
+          "average_speed_meters_per_second": 3.33
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.6
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 452,
+          "average_speed_meters_per_second": 3.59
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 453,
+          "average_speed_meters_per_second": 3.54
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 473,
+          "average_speed_meters_per_second": 3.42
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 462,
+          "average_speed_meters_per_second": 3.5
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 382,
+          "average_speed_meters_per_second": 4.15
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 435,
+          "average_speed_meters_per_second": 3.75
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 492,
+          "average_speed_meters_per_second": 3.24
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 74,
+          "average_speed_meters_per_second": 3.29
+        }
+      ]
+    },
     {
       "id": "18444994702",
       "date": "2026-05-09T22:39:24Z",
