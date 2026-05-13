@@ -1,10 +1,58 @@
 {
-  "last_updated": "2026-05-12T12:44:46.907Z",
+  "last_updated": "2026-05-13T00:45:34.280Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18483154224",
+      "date": "2026-05-12T20:49:25Z",
+      "type": "workout",
+      "name": "Free Run",
+      "distance_meters": 11110.6,
+      "moving_time_seconds": 3002,
+      "total_elevation_gain_meters": 75.3,
+      "average_speed_meters_per_second": 3.701,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 444,
+          "average_speed_meters_per_second": 3.65
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 462,
+          "average_speed_meters_per_second": 3.48
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 477,
+          "average_speed_meters_per_second": 3.39
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 426,
+          "average_speed_meters_per_second": 3.81
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 417,
+          "average_speed_meters_per_second": 3.8
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 403,
+          "average_speed_meters_per_second": 4.01
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 373,
+          "average_speed_meters_per_second": 3.87
+        }
+      ]
+    },
     {
       "id": "18466727753",
       "date": "2026-05-11T16:09:47Z",
