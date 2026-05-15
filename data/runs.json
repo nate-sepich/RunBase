@@ -1,10 +1,38 @@
 {
-  "last_updated": "2026-05-14T12:40:41.636Z",
+  "last_updated": "2026-05-15T00:44:22.631Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18507168932",
+      "date": "2026-05-14T17:18:52Z",
+      "type": "workout",
+      "name": "Free Run",
+      "distance_meters": 3344.2,
+      "moving_time_seconds": 1008,
+      "total_elevation_gain_meters": 8.1,
+      "average_speed_meters_per_second": 3.318,
+      "is_pr": false,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 456,
+          "average_speed_meters_per_second": 3.55
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 516,
+          "average_speed_meters_per_second": 3.12
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 36,
+          "average_speed_meters_per_second": 3.18
+        }
+      ]
+    },
     {
       "id": "18493330527",
       "date": "2026-05-13T15:34:37Z",
