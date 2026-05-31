@@ -1,10 +1,95 @@
 {
-  "last_updated": "2026-05-30T12:28:47.417Z",
+  "last_updated": "2026-05-31T00:51:40.371Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18715676395",
+      "date": "2026-05-30T11:54:08Z",
+      "type": "race",
+      "name": "Morning Run",
+      "distance_meters": 21316.7,
+      "moving_time_seconds": 5463,
+      "total_elevation_gain_meters": 71,
+      "average_speed_meters_per_second": 3.902,
+      "is_pr": true,
+      "pr_distance": "Half Marathon",
+      "pr_time_seconds": 5301,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 417,
+          "average_speed_meters_per_second": 3.87
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 405,
+          "average_speed_meters_per_second": 3.97
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 406,
+          "average_speed_meters_per_second": 3.96
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 413,
+          "average_speed_meters_per_second": 3.9
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 413,
+          "average_speed_meters_per_second": 3.9
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 409,
+          "average_speed_meters_per_second": 3.93
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 415,
+          "average_speed_meters_per_second": 3.88
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 418,
+          "average_speed_meters_per_second": 3.85
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 388,
+          "average_speed_meters_per_second": 4.15
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 400,
+          "average_speed_meters_per_second": 4.02
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 402,
+          "average_speed_meters_per_second": 4.01
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 400,
+          "average_speed_meters_per_second": 4.02
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 400,
+          "average_speed_meters_per_second": 4.03
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 178,
+          "average_speed_meters_per_second": 2.2
+        }
+      ]
+    },
     {
       "id": "18707500828",
       "date": "2026-05-29T22:03:36Z",
