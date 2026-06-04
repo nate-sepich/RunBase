@@ -1,10 +1,130 @@
 {
-  "last_updated": "2026-06-03T00:59:52.217Z",
+  "last_updated": "2026-06-04T13:09:19.029Z",
   "athlete": {
     "name": "Gabe",
     "bio": "Striving for the apex."
   },
   "activities": [
+    {
+      "id": "18764024603",
+      "date": "2026-06-02T22:00:48Z",
+      "type": "workout",
+      "name": "Free Run",
+      "distance_meters": 33146.2,
+      "moving_time_seconds": 11131,
+      "total_elevation_gain_meters": 231.5,
+      "average_speed_meters_per_second": 2.978,
+      "is_pr": true,
+      "pr_distance": "30k",
+      "pr_time_seconds": 10520,
+      "splits_standard": [
+        {
+          "mile": 1,
+          "moving_time_seconds": 567,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 2,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.88
+        },
+        {
+          "mile": 3,
+          "moving_time_seconds": 575,
+          "average_speed_meters_per_second": 2.8
+        },
+        {
+          "mile": 4,
+          "moving_time_seconds": 575,
+          "average_speed_meters_per_second": 2.81
+        },
+        {
+          "mile": 5,
+          "moving_time_seconds": 532,
+          "average_speed_meters_per_second": 2.99
+        },
+        {
+          "mile": 6,
+          "moving_time_seconds": 543,
+          "average_speed_meters_per_second": 2.96
+        },
+        {
+          "mile": 7,
+          "moving_time_seconds": 569,
+          "average_speed_meters_per_second": 2.86
+        },
+        {
+          "mile": 8,
+          "moving_time_seconds": 529,
+          "average_speed_meters_per_second": 3.05
+        },
+        {
+          "mile": 9,
+          "moving_time_seconds": 548,
+          "average_speed_meters_per_second": 2.91
+        },
+        {
+          "mile": 10,
+          "moving_time_seconds": 559,
+          "average_speed_meters_per_second": 2.9
+        },
+        {
+          "mile": 11,
+          "moving_time_seconds": 562,
+          "average_speed_meters_per_second": 2.85
+        },
+        {
+          "mile": 12,
+          "moving_time_seconds": 544,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 13,
+          "moving_time_seconds": 516,
+          "average_speed_meters_per_second": 3.1
+        },
+        {
+          "mile": 14,
+          "moving_time_seconds": 526,
+          "average_speed_meters_per_second": 3.06
+        },
+        {
+          "mile": 15,
+          "moving_time_seconds": 509,
+          "average_speed_meters_per_second": 3.17
+        },
+        {
+          "mile": 16,
+          "moving_time_seconds": 516,
+          "average_speed_meters_per_second": 3.12
+        },
+        {
+          "mile": 17,
+          "moving_time_seconds": 494,
+          "average_speed_meters_per_second": 3.25
+        },
+        {
+          "mile": 18,
+          "moving_time_seconds": 483,
+          "average_speed_meters_per_second": 3.3
+        },
+        {
+          "mile": 19,
+          "moving_time_seconds": 547,
+          "average_speed_meters_per_second": 2.98
+        },
+        {
+          "mile": 20,
+          "moving_time_seconds": 525,
+          "average_speed_meters_per_second": 3.07
+        },
+        {
+          "mile": 21,
+          "moving_time_seconds": 353,
+          "average_speed_meters_per_second": 2.65
+        }
+      ]
+    },
     {
       "id": "18715676395",
       "date": "2026-05-30T11:54:08Z",
